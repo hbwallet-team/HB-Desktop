@@ -1,0 +1,229 @@
+.title-ss-history {
+  width: 100%;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+}
+.ssh-list-content {
+  color: white;
+  font-family: var(--font-roboto);
+  width: 100%;
+}
+.ss-history-list-container {
+  width: 100%;
+  height: calc(100% - 0px);
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.ssh-4-left-bold {
+  text-align: right;
+  font-size: 22px;
+}
+.ssh-4-right-bold {
+  font-size: 18px;
+  float: left;
+}
+.md-ssh-ground-balance {
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+}
+.md-ssh-text-balance-left {
+  font-family: var(--font-roboto-bold);
+  font-size: 22px;
+}
+.md-ssh-text-balance-right {
+  font-family: var(--font-roboto-bold);
+  font-size: 22px;
+}
+.md-ssh-text-balance-center {
+  text-align: center;
+  width: 100%;
+}
+.md-ssh-to {
+  margin: 0 8px;
+}
+.md-ssh-transaction-text {
+  margin: 0;
+}
+.ssh-4-left {
+  text-align: right;
+}
+.ssh-img-containt-confirm {
+  float: left;
+}
+.ssh-img-confirm {
+  width: 25px;
+  height: 25px; 
+  float: left; 
+  margin: 1px 3px 0 0;
+}
+.md-ssh-content .ssh-img-confirm {
+  width: 45px;
+  height: 45px;
+}
+.ssh-4-2 {
+  float: left;
+  margin: 2px 0 0 5px;
+}
+.md-ssh-content .ssh-4-2 {
+  margin: 13px 5px 0px 5px;
+}
+.ssh-4-3 {
+  float: left;
+}
+.ssh-4-4 {
+  width: 20%;
+  padding: 3px 0 0;
+}
+.ssh-4-5 {
+  width: 10%;
+  justify-content: flex-end;
+}
+.ssh-4-6 {
+  width: 70%;
+}
+.ssh-container {
+  width: 100%;
+  height: 100%;
+  padding: 70px 30px 0 30px;
+}
+.ssh-touch-view {
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-roboto);
+}
+.ssh-status {
+  color: 'rgba(253, 253, 253, 0.8)';
+  height: 25px;
+  padding: 2px 10px;
+  display: block;
+  float: right;
+}
+.md-ssh {
+  z-index: 1;
+  width: 620px;
+  font-family: var(--font-roboto);
+}
+
+.md-ssh-header {
+	width: 100%;
+	height: 60px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+	/* background-image: linear-gradient(to top, #d7d5d7, #edebed); */
+  border-color:  #b2b0b2;
+  border-bottom: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0c2341;
+
+  font-size: 24px;
+  letter-spacing: 0.2px;
+  color: white;
+}
+
+.md-ssh-content {
+  width: 100%;
+  background-color: #0c2341;
+  padding: 20px 0 50px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.md-ssh-line {
+  height: 1px;
+  width: 100%;
+  background-color:  #4a596c;
+}
+
+.md-ssh-icons {
+  display: flex;
+  justify-content: center;
+}
+.md-ssh-text {
+  color: #b2b0b2;
+}
+.md-ssh-text-title {
+  color: white;
+  font-family: var(--font-roboto-bold);
+  letter-spacing: 0.5px;
+}
+.md-ssh-text-completedOn {
+  text-align: center;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.md-ssh-bottom-content {
+  width: 100%;
+}
+.md-ssh-bottom-row {
+  width: 100%;
+  margin-top: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.md-ssh-text-img {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: #b2b0b2;
+}
+.ssh-img-sr {
+  widows: 15px;
+  height: 15px;
+  opacity: 0.7;
+  margin-right: 8px;
+}
+.ssh-img-src {
+  widows: 26px;
+  height: 26px;
+  margin-left: 8px;
+}
+.md-ssh-status {
+  color: 'rgba(253, 253, 253)';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: 'rgba(253, 253, 253)';
+  height: 25px;
+  font-size: 14px;
+  padding: 2px 10px;
+  white-space: nowrap;
+}
+.md-ssh-groub-btns {
+  margin-top: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.md-ssh-groub-btns2 {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.md-ssh-groub-btns1 {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.md-ssh-button {
+  width: 200px;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.md-ssh-datetime {
+  font-family: var(--font-roboto-bold);
+}

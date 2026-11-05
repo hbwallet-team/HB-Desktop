@@ -1,0 +1,214 @@
+#simplexform .ant-row {
+    display: flex;
+    align-items: flex-start;
+}
+.simplex-layout{
+    height: 100%;
+    overflow: hidden;
+}
+.simplex-content{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03));
+    border-radius: 12px;
+    max-height: calc(100% - 70px);
+    margin:70px 20px;
+    overflow-y: scroll
+
+}
+.wrap-content{
+    margin: 10px 20px 0px 20px;
+    height: calc(100% - 79px);
+    overflow-y: scroll;
+    overflow: auto;
+}
+.page-title{
+    padding: 20px;
+    font-size: 24px;
+}
+.simplex-content .ant-divider-horizontal{
+    background: #27344a;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+ .divider-second {
+    margin-top: 10px;
+}
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 20px;
+    width: 436px;
+}
+.form-group {
+    margin: 10px 100px
+}
+.label-name{
+    color: #535E7A;
+    font-size: 13px;
+}
+.value-limit{
+    color: #535E7A;
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+ .min-max{
+    color: #F2C94C;
+    display: flex;
+    /* min-width: 436px; */
+    justify-content: space-between;
+    width: 436px;
+}
+.cryptocurrencyList{
+    margin: 20px 0;
+    display: flex;
+}
+.CryptocurrencyList-item{
+    position: relative;
+    cursor: pointer;
+    width: 100px;
+    border: 1px solid #535E7A;
+    border-radius: 8px;
+    padding: 20px 10px;
+    text-align: center;
+    margin-right: 15px;
+}
+.account-receive-title{
+    font-size: 16px;
+    color: #F2C94C;
+    margin-bottom: 5px;
+}
+.account-group{
+    font-size: 13px;
+    margin: 8px 0 9px;
+}
+.account-receive-main {
+    margin-bottom: 5px;
+}
+.btn-cancel-simplex{
+    cursor: pointer;
+    background: none;
+    border-radius: 8px;
+    border: 1px solid #263352;
+    padding: 5px 20px;
+    font-size: 13px;
+    width: 108px;
+    height: 32px;
+}
+.btn-buy-simplex{
+    color: #fff;
+    cursor: pointer;
+    background: #24E37D;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 20px;
+    font-size: 13px;
+    width: 108px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+}
+.usd-form{
+    display: flex;
+    align-items: center;
+    margin: 7px 0;
+}
+.usd-label{
+    color: #535E7A;
+    font-size: 13px;
+    justify-content: flex-end;
+    display: flex;
+    padding-right: 10px;
+    margin-top: 14px;
+}
+.usd-input{
+    width: 436px;
+    display: flex;
+    position: relative;
+}
+.usd-symbol {
+    font-size: 13px;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+}
+.usd-loading {
+    margin-left: 10px;
+}
+.ant-input{
+    background: #263352;
+    border-radius: 8px;
+    border: 1px solid #263352 ;
+    font-size: 13px;
+    padding: 8px;
+    color: #ffffff;
+}
+.account-receive {
+    margin-bottom: 15px;
+}
+.limit-lenght{
+    display: flex;
+    justify-content: flex-end;
+}
+.swal2-popup.simplex-popup .swal2-confirm {
+    border-radius: 8px;
+    padding: 5px 50px;
+    font-size: 13px;
+  }
+.swal2-popup.simplex-popup .swal2-styled:focus{
+  outline: none;
+  box-shadow: none;
+  }
+.swal2-popup.simplex-popup .swal2-title{
+    font-size: 16px;
+  }
+.simplex-error-message{
+    font-size: 13px;
+    color: red;
+    margin-bottom: 5px;
+}
+.CryptocurrencyList-item.active {
+    border: 1px solid #1A88FF;
+
+}
+.CryptocurrencyList-item.active .card-img-select{
+    visibility: visible;
+}
+.btn-buy-simplex.disable{
+    cursor: not-allowed;
+    background: rgba(36, 227, 125, 0.5);
+}
+.result-amount{
+    margin: 0px 10px;
+    font-size: 13px;
+}
+.payment-form{
+    display:none;
+    visibility: hidden;
+}
+.sub-info-value{
+    margin: 5px 0 15px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #535E7A;
+}
+.external-link {
+    color: #2A97FF;
+    cursor: pointer;
+}
+.simplex-selected-currency{
+    margin: 0 10px
+}
+.simplex-selected-currency .ant-select-selection 
+{
+    width: 80px !important;
+}
+.simplex-selected-currency .ant-select-enabled{
+    width: 80px !important;
+    top: 0 !important;
+}
+.simplex-layout .browser-container .btn-Back {
+    display: flex;
+    height: 56px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}

@@ -1,0 +1,129 @@
+.pp-fillOrder {
+  width: 500px;
+}
+.pp-convert-fill-order{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pp-mgBottom-47{
+  margin-bottom: 47px;
+}
+.pp-wrap-user.pp-noMargin{
+  margin-right: 0;
+}
+.pp-send-amount{
+  margin-top: 5px;
+}
+.pp-receive-amount{
+  margin-bottom: 5px;
+}
+.pp-line-fillOrder {
+  width: 590px;
+  height: 1px;
+  background-color: #4a596c;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+.pp-header-amount.pp-pdTop-25{
+  padding-top: 25px;
+}
+.pp-wrap-amount-value.pp-edit-value{
+  width: initial;
+  text-align: right;
+  margin-right: 5px;
+}
+.pp-wrap-amount-usd{
+  width: initial;
+  text-align: right;
+}
+.pp-value-price{
+  margin-bottom: 15px;
+}
+.pp-value-price .exc-usd-first {
+  font-size: 13px;
+}
+.pp-value-price .exc-usd-second {
+  font-size: 12px;
+}
+.pp-title-price{
+  margin-bottom: 15px;
+}
+.pp-usd-price{
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.pp-usd-price .exc-usd-first {
+  font-size: 13px;
+}
+.pp-usd-price .exc-usd-second {
+  font-size: 12px;
+}
+.pp-usd-total{
+  font-size: 12px;
+  color: #535E7A;
+}
+.pp-usd-total .exc-usd-first {
+  font-size: 13px;
+}
+.pp-usd-total .exc-usd-second {
+  font-size: 12px;
+}
+.pp-wrap-amount-value {
+  width: calc(100% - 162px);
+}
+.pp-wrap-amount-value > .pp-btnBuyAll {
+  cursor: pointer;
+  color: #1A88FF;
+  text-decoration: underline;
+  margin-top: 6px;
+}
+.pp-wrap-price-usd{
+  font-size: 12px;
+  color: #535E7A;
+}
+.pp-wrap-price-usd .exc-usd-first {
+  font-size: 13px;
+}
+.pp-wrap-price-usd .exc-usd-second {
+  font-size: 12px;
+}
+.pp-wrap-row.pp-disableValue .pp-wrap-amount-title {
+  color: #a8a8a8;
+}
+.pp-wrap-row.pp-disableValue .pp-wrap-amount-value > .normal-input{
+  pointer-events: none;
+  border: 1px solid #a8a8a8;
+  color: #a8a8a8;
+}
+.pp-wrap-row.pp-disableValue .pp-wrap-amount-value .hb-input-button {
+  color: #a8a8a8;
+}
+.pp-wrap-row.pp-disableValue .pp-wrap-amount-value > .pp-btnBuyAll {
+  background: #555555;
+}
+.pp-wrap-row.pp-disableValue .pp-value-total {
+  color: #a8a8a8;
+}
+.pp-wrap-row.pp-disableValue .pp-wrap-amount-value {
+  cursor: not-allowed;
+}
+.pp-wrap-row.pp-disableValue .pp-wrap-amount-value .pp-btnBuyAll {
+  pointer-events: none;
+}
+.pp-info-amount .pp-wrap-row.pp-disableValue .pp-fill-order-input-view>.hb-input-button>input {
+  cursor: not-allowed;
+  pointer-events: none;
+  border: 1px solid #a8a8a8;
+}
+.pp-wrap-row.pp-editForBalanceMaker{
+  margin-top: -10px;
+}
+.pp-mb-0 {
+  margin-bottom: 0;
+}
+.exs-pp-textTake {
+  color: #EBB346;
+}

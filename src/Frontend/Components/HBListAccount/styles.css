@@ -1,0 +1,13 @@
+.md-body.md-list-account {
+  width: 838px;
+}
+.md-list-account .eth-center-desc {
+  background: transparent;
+  margin: 0;
+  padding-top: 10px;
+}
+.md-list-account .eth-center-container {
+  background: transparent;
+  margin: 0;
+  max-height: 400px;
+}

@@ -1,0 +1,46 @@
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .img-Background {
+    width: 100%;
+    height: 100%;
+  }
+
+  .window {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .window-content {
+    position: relative;
+    display: flex;
+    flex: 1;
+  }
+  .splashText {
+    display: flex;
+    justify-content: center;
+    bottom: 40px;
+    width: 100%;
+
+    font-family: var(--font-roboto);
+    font-size: 30px;
+    z-index: 2;
+    position: absolute;
+  }
+
+.splashIntro {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

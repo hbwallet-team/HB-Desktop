@@ -1,0 +1,109 @@
+.dapp-request-list {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+  padding-right: 10px;
+}
+.dapp-request-list .ant-list-item {
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+  display: block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.dapp-request-list .ant-list-item-content {
+  display: block;
+}
+.dapp-request-body .dapp-asset-content {
+  padding-bottom: 0;
+}
+.dapp-request-body .dapp-asset-thumbnail {
+  justify-content: flex-start;
+  margin: 10px;
+}
+.dapp-request-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.dapp-request-icon {
+  width: 18px;
+  margin-right: 4px;
+}
+.dapp-request-icon img {
+  width: 16px;
+  height: 16px;
+}
+.dapp-request-type {
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-right: 4px;
+}
+.dapp-request-amount {
+  font-size: 12px;
+  margin-right: 4px;
+}
+.dapp-request-fiat {
+  color: #535E7A;
+  font-size: 11px;
+}
+.dapp-request-fiat .exc-usd-first {
+  font-size: 11px;
+}
+.dapp-request-fiat .exc-usd-second {
+  font-size: 10px;
+}
+.dapp-request-txt {
+  font-size: 12px;
+  word-break: break-all;
+}
+.dapp-request-accepted {
+  display: flex;
+  align-items: center;
+}
+.dapp-request-accepted > span {
+  color: #FFCE00;
+  text-decoration: underline;
+  font-size: 13px;
+  margin-left: 3px;
+  cursor: pointer;
+}
+.dapp-request-sent {
+  display: flex;
+  align-items: center;
+}
+.dapp-request-sent > span {
+  color: #FF295C;
+  text-decoration: underline;
+  font-size: 13px;
+  margin-left: 3px;
+  cursor: pointer;
+}
+.dapp-request-pending {
+  color: #FF295C;
+  font-size: 13px;
+  white-space: pre-line;
+}
+.dapp-request-action {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 5px;
+  position: relative;
+}
+.dapp-request-action .btn {
+  width: 120px;
+  margin-right: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.dapp-request-timestamp {
+  color: #535E7A;
+  font-size: 12px;
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
+.btn.btn-forUnactive {
+  opacity: 0.5;
+  pointer-events: none;
+}

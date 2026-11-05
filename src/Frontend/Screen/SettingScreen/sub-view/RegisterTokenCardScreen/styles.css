@@ -1,0 +1,73 @@
+.register-token-card-form .pp-wrap-amount-body {
+  display: flex;
+  padding: 20px 20px 35px;
+}
+.register-token-card-form .pp-input-phone {
+  width: 240px;
+  margin-left: 25px;
+  position: relative;
+}
+.register-token-card-form .pp-input-card-preview {
+  position: absolute;
+  width: 192px;
+  height: 120px;
+  z-index: 1;
+  left: 24px;
+  top: 40px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+}
+.register-token-card-form .pp-input-amount {
+  width: 515px;
+}
+.register-token-card-form .pp-wrap-amount-value {
+  width: calc(100% - 180px);
+}
+.register-token-card-form .pp-wrap-amount-title {
+  width: 167px;
+  display: flex;
+  white-space: pre;
+  justify-content: flex-end;
+}
+.register-token-card-form .pp-wrap-row {
+  margin-bottom: 24px;
+}
+.register-token-card-form .pp-tlr-checkbox {
+  align-items: flex-start;
+}
+.register-token-card-form .pp-wrap-amount-bottom {
+  justify-content: flex-start;
+}
+.register-token-card-form .pp-wrap-amount-btn {
+  justify-content: space-between;
+  padding-left: 170px;
+  width: 520px;
+  display: flex;
+}
+.pp-confirm .pp-wrap-amount-value.pp-for-warning {
+  color: #EBB346;
+  font-size: 12px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -3px;
+}
+.pp-confirm .pp-wrap-amount-value.pp-for-warning img {
+  margin-right: 5px;
+}
+.pp-confirm .pp-wrap-row.pp-mgTop-10 {
+  margin-top: 10px;
+  align-items: flex-start;
+}
+.pp-confirm.pp-wrap-amount-body {
+  padding-bottom: 20px;
+}
+.rtc-container .exs-btn.exs-pp-unwrap-btn.trf-request{
+  min-width: 96px;
+  width: unset;
+}
+.minWidth120.exs-btn {
+  min-width: 120px;
+}

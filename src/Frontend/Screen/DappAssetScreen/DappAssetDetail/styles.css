@@ -1,0 +1,485 @@
+.dapp-asset-detail {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.dapp-asset-detail .dapp-asset-left {
+	position: relative;
+	width: 252px;
+	text-align: center;
+}
+.dapp-asset-detail .dapp-asset-right {
+	margin-left: 28px;
+	width: calc(100% - 280px);
+	padding-right: 20px;
+}
+.dapp-asset-detail .ant-list-item {
+	padding: 0;
+}
+.dapp-asset-detail .dapp-asset-thumbnail {
+	width: 232px;
+	height: 232px;
+}
+.dapp-asset-detail .dapp-asset-thumbnail img {
+	width: 200px;
+	height: 200px;
+}
+.dapp-asset-detail .dapp-value-dai {
+	width: 80%;
+	white-space: nowrap;
+	padding: 5px 10px;
+	top: 220px;
+	margin: 0 10%;
+}
+.dapp-asset-detail .dapp-asset-game {
+	font-size: 12px;
+	margin-bottom: 8px;
+}
+.dapp-asset-detail .dapp-asset-game.dapp-blueText {
+	color: #2F80ED;
+	cursor: pointer;
+}
+.dapp-asset-detail .dapp-asset-name {
+	font-size: 13px;
+}
+.dapp-asset-detail .dapp-asset-price {
+	font-size: 15px;
+	margin-top: 10px;
+	display: block;
+}
+.dapp-asset-detail .dapp-asset-price .exc-usd-first {
+	font-size: 16px;
+}
+.dapp-asset-detail .dapp-asset-price .exc-usd-second {
+	font-size: 15px;
+}
+.dapp-asset-detail .dapp-asset-price > img {
+	margin-right: 6px;
+	position: relative;
+	top: -1px;
+}
+.dapp-asset-see-history {
+	margin: 15px 0;
+}
+.dapp-asset-box {
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 8px;
+	padding: 10px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+.dapp-asset-right > .dapp-asset-box {
+	width: calc(100% - 15px);
+}
+.dapp-asset-box .dapp-asset-title {
+	color: #535E7A;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.dapp-asset-spec {
+	color: #A1ACC7;
+	font-size: 13px;
+	display: flex;
+	align-items: flex-start;
+	white-space: nowrap;
+}
+.dapp-asset-spec span {
+	color: #F2F5FC;
+	margin-left: 5px;
+	white-space: pre-line;
+}
+.dapp-asset-value {
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+}
+.dapp-asset-fiat {
+	font-size: 13px;
+	color: #535E7A;
+	display: flex;
+	align-items: center;
+}
+.dapp-asset-value span,
+.dapp-asset-fiat > span {
+	margin-left: 5px;
+}
+.dapp-asset-action {
+	margin-top: 5px;
+}
+.dapp-asset-action .btn {
+	margin-right: 12px;
+    min-width: 142px;
+    padding: 0 20px;
+}
+.dapp-start-date {
+	color: #535E7A;
+	font-size: 13px;
+}
+.dapp-start-date span {
+	color: #F2F5FC;
+	margin-left: 5px;
+}
+.dapp-asset-detail .dapp-start-date {
+	margin-bottom: 10px;
+}
+.dapp-asset-comment {
+	width: calc(100% - 15px);
+	margin-bottom: 20px;
+}
+.dapp-asset-comment-box {
+	min-height: 77px;
+	background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+	padding: 10px;
+	font-size: 13px;
+} 
+.dapp-asset-comment-count {
+	font-size: 10px;
+	color: #535E7A;
+	text-align: right;
+}
+.slc-desc {
+	color: #535E7A;
+    font-size: 13px;
+    margin: 0 20px 10px;
+	padding-top: 5px;
+	line-height: 17px;
+}
+.slc-box {
+	background: rgba(255, 255, 255, 0.02);
+	border-radius: 12px;
+	margin: 0 20px 9px;
+}
+.slc-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: rgba(255, 255, 255, 0.03);
+	border-radius: 12px 12px 0px 0px;
+	color: #535E7A;
+	font-size: 12px;
+	text-transform: uppercase;
+	height: 32px;
+    padding: 0 10px;
+}
+.slc-body .ant-radio-group {
+	width: 100%;
+}
+.slc-body .ant-list-item {
+	border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.slc-body .ant-list-item:first-child {
+	border-top: none;
+}
+.slc-body .ant-radio-wrapper {
+	width: 100%;
+	display: flex;
+	margin-right: 0;
+}
+.slc-body  span.ant-radio + * {
+    padding-left: 8px;
+    padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 0px);
+}
+.slc-fiat {
+	color: #535E7A;
+	font-size: 12px;
+	margin-left: 5px;
+}
+.md-commissionFee {
+	display: flex;
+	margin-right: 10px;
+	justify-content: flex-end;
+	font-size: 13px;
+	color: #535E7A;
+	position: relative;
+	white-space: pre-line;
+	text-align: right;
+}
+.md-commissionFee.exs-color-yellow {
+	color: #EBB346;
+}
+.md-commissionFee.top8px {
+  top: 8px;
+}
+.commission-wrapper {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.commission-wrapper.md-discount {
+	font-size: 12px;
+	color: #535E7A;
+	line-height: 16px;
+	margin-top: -8px;
+}
+.commission-wrapper .ant-select {
+	width: 120px;
+	margin-right: 10px;
+}
+.commission-amount {
+	font-size: 12px;
+}
+.commission-fiat {
+	font-size: 10px;
+	color: #535E7A;
+	margin-bottom: 5px;
+}
+.commission-fiat .exc-usd-first {
+	font-size: 10px;
+}
+.commission-fiat .exc-usd-second {
+	font-size: 9px;
+}
+.commission-link {
+	font-size: 12px;
+	color: #297FFF;
+	cursor: pointer;
+}
+.comission-desc {
+	font-size: 12px;
+	color: #535E7A;
+	margin-bottom: 4px;
+	line-height: 20px;
+	white-space: pre-line;
+}
+.commission-err {
+	font-size: 12px;
+	color: #FF295C;
+	margin-bottom: 4px;
+	position: absolute;
+	bottom: -18px;
+}
+.md-send-smart-contract {
+	overflow: auto;
+	height: calc(100% - 64px);
+}
+.md-send-smart-contract .pp-showError {
+	margin-top: 1px;
+}
+.dapp-asset-left .dapp-asset-fiat {
+	display: inline-block;
+    margin-top: 5px;
+}
+.dapp-error {
+	font-size: 13px;
+    color: #FF295C;
+    line-height: 20px;
+}
+.dapp-asset-comment + .dapp-error {
+	margin-top: -25px;
+}
+.dapp-term-services {
+	font-size: 13px;
+	color: #297FFF;
+	margin-bottom: 7px;
+	cursor: pointer;
+}
+.terms-service-dropdown {
+    max-width: 160px;
+    overflow-y: auto;
+    margin-top: -4px;
+    background-color: #263352;
+}
+.terms-service-dropdown .ant-dropdown-menu-item {
+    color: #F2F5FC;
+    font-size: 12px;
+}
+.terms-service-dropdown .ant-dropdown-menu-item:hover {
+    background-color: #e6f7ff;
+    color: #535E7A;
+}
+.sendNFT-buyer {
+	width: calc(125% - 40px);
+	margin: 0 20px;
+	padding-bottom: 5px;
+}
+.line1px {
+	border-top: 1px solid rgba(255, 255, 255, 0.05);
+	width: calc(125% - 40px);
+	margin: 0 20px;
+	padding-bottom: 10px;
+}
+.sendNFT-buyer.borderTop1px {
+	border-top: 1px solid rgba(255, 255, 255, 0.05);
+	padding-top: 15px;
+	margin-top: 5px;
+}
+.md-content.md-send-smart-contract .ant-row {
+	padding: 11px 20px;
+}
+.md-content.md-send-smart-contract .ant-row.md-padding9px {
+	padding: 9px 20px;
+}
+.md-content.md-send-smart-contract .ant-row.md-padding9px.md-termServices {
+	padding: 18px 20px;
+}
+.sendNFT-buttons {
+	justify-content: space-between;
+	display: flex;
+	padding-bottom: 20px;
+}
+.sendNFT-buttons .btn {
+	margin-left: 0;
+	min-width: 120px;
+}
+.md-content .ant-row.md-bottom15px {
+	padding-bottom: 18px;
+}
+.dapp-container .sts-container.sendNFT-scroll {
+	overflow-y: scroll;
+	max-height: 100%;
+}
+.dapp-container .sts-container.sendNFT-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.dapp-container .sts-container.sendNFT-scroll::-webkit-scrollbar-thumb {
+  background: #808b9c;
+  border-radius: 10px;
+}
+.dapp-container .sts-container.sendNFT-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+.sendNFT-scroll .ant-col-7 {
+	width: 30.166667%;
+}
+.checkBoxNFT-wrapper {
+	display: flex;
+	align-items: flex-end;
+}
+.checkBoxNFT-img {
+	margin-right: 12px;
+	border-radius: 12px;
+	background: rgba(255, 255, 255, 0.05);
+	padding: 10px 0;
+}
+.checkBoxNFT-img .dapp-asset-thumbnail img {
+	width: 65px;
+	max-height: 65px;
+}
+.checkBoxNFT-img .dapp-asset-thumbnail {
+	width: 55px;
+	max-height: 55px;
+	border-radius: 12px;
+	margin: 5px;
+}
+.checkBoxNFT-img.activeHighlight {
+	background: linear-gradient(180deg, #2A97FF 0%, rgba(41, 127, 255, 0.58) 100%);
+}
+.md-content.md-send-smart-contract .ant-row.md-padding9px.sendNFT-editRow1 {
+	padding-bottom: 0;
+}
+.sendNFT-textarea {
+	background: rgba(38, 51, 82, 0.6);
+	border-radius: 8px;
+	border: 1px solid transparent;
+	width: 100%;
+	min-height: 104px;
+	padding: 10px;
+	color: #F2F5FC;
+}
+.sendNFT-textarea::-webkit-scrollbar {
+  width: 4px;
+}
+.sendNFT-textarea::-webkit-scrollbar-thumb {
+  background: #808b9c;
+  border-radius: 10px;
+}
+.sendNFT-textarea::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+.sendNFT-scroll .ant-col-7.editSeftTop {
+	align-self: flex-start;
+}
+.sendNFT-scroll .ant-col-7.editSeftTop .md-receiver-account {
+	top: 0;
+}
+.dapp-asset .dapp-left-body.sendNFT-wrap {
+	overflow-y: scroll;
+	height: calc(100% - 20px);
+}
+.sendNFT-wrap {
+	height: 100%;
+	padding: 0 20px 0 0;
+}
+.sendNFT-wrap .sts-container {
+	margin-left: 20px;
+}
+.Dapp-link {
+	color: #297FFF;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.sendNFT-wrap .ant-radio .ant-radio-inner {
+	height: 12px;
+	width: 12px;
+	top: -2px;
+}
+.sendNFT-wrap .ant-radio-checked:after {
+	top: -2px;
+}
+.sendNFT-wrap .ant-radio .ant-radio-inner:after {
+	width: 6px;
+	height: 6px;
+	left: 2px;
+	top: 2px;
+}
+.md-content.md-send-smart-contract .ant-row.editPaddingBottom2 {
+	padding-bottom: 23px;
+}
+.md-send-asset .md-content .ant-row.pdBottom9px {
+	padding-bottom: 9px;
+}
+.commission-amount > .spin-container > .spinner{
+	width: 20px !important;
+	height: 20px !important;
+	margin-left: 0 !important;
+	margin-top: -4px !important;
+}
+.ant-layout .md-termServices .ant-checkbox-inner{
+	border-radius: 100%;
+}
+.md-termServices .ant-checkbox-checked:after {
+	border-radius: 100%;
+}
+.dapp-asset-resend {
+	margin-top: 16px;
+	display: flex;
+}
+.dapp-resend-note {
+	color: #535E7A;
+	font-size: 13px;
+	white-space: pre-line;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+.dapp-asset-resend .btn {
+	min-width: 142px;
+	margin-right: 12px;
+}
+.receiver-note {
+	font-size: 13px;
+	color: #F2F5FC;
+	white-space: pre-line;
+	line-height: 20px;
+}
+.dapp-note-NFT {
+	font-size: 13px;
+	line-height: 20px;
+	color: #FFBA00;
+}
+.dapp-note-NFT > img{
+	margin-right: 3px;
+	margin-top: -4px;
+	width: 14px;
+	height: 14px;
+}
+.dapp-note-NFT2 {
+	font-size: 13px;
+	line-height: 20px;
+	color: #FFBA00;
+	margin-left: 17px;
+}

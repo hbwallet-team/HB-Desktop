@@ -1,0 +1,87 @@
+.setting-pin-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 130px;
+
+}
+.setting-pin-txt{
+    width: 53px; 
+    height: 53px;
+    background-color: #0b2242;
+    text-align: center;
+}
+.setting-pin-row{
+    width: 404px;
+    height: 196px;
+    background: #1D2B47;
+    border-radius: 12px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+.setting-pin-title {
+    font-size: 13px;
+    color: #F2F5FC;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 17px;
+    margin-top: 27px;
+}
+.setting-pin-error {
+    color: #FF295C;
+    font-size: 13px;
+}
+.setting-pin-form-success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.setting-pin-img-success{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 5%
+}
+.pingcode-title {
+    font-size: 30px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #F2F5FC;
+    text-align: left;
+    width: 100%;
+    padding-left: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.tabContainerSettings .pingcode-title {
+    font-size: 24px;
+    color: #F2F5FC;
+}
+.container-menu-setting-content.setting-pin-container {
+    padding-top: 0;
+}
+.tabContainerSettings .container-menu-setting-content.setting-pin-container .setting-pin-row {
+    width: 100%;
+    margin-left: 40px;
+    background: rgba(255, 255, 255, 0.02);
+    height: 268px;
+}
+.tabContainerSettings .container-menu-setting-content.setting-pin-container .setting-pin-title {
+    font-size: 13px;
+    color: #F2F5FC;
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 22px;
+    margin-top: 44px;
+}
+.isErrorConfirm {
+    border: 1px solid #FF295C;
+    opacity: 1;
+    background: #FF295C;
+}
+.isNotErrorConfirm {
+    border: 1px solid #F2F5FC;
+}

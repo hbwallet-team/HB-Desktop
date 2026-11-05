@@ -1,0 +1,226 @@
+.pp-order-detail {
+    height: 286px;
+    width: 510px;
+}
+.md-hd-content{
+	width: 100%;
+    height: calc(100% - 52px);
+    border-radius: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+.md-hd-top {
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.md-hd-top-eth{
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.md-hd-top-eth-text{
+    font-size: 20px;
+    color: #fefefe;
+    margin-right: 5px;
+}
+.md-hd-top-eth-number{
+	font-family: Roboto;
+	font-size: 26.5px;
+	text-align: left;
+}
+.md-color-send {
+    color: #e00614;
+	font-size: 26.5px;
+	text-align: left;
+}
+.md-color-received {
+    color: #009086;
+	font-size: 26.5px;
+	text-align: left;
+}
+.md-color-token {
+    color: #ffba00;
+	font-size: 26.5px;
+	text-align: left;
+}
+.md-hd-top-money{
+    margin-top: 7px;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+.md-hd-top-money-text{
+	font-family: inherit;
+	font-size: 17.3px;
+    text-align: left;
+    margin-right: 5px;
+	color: #a8a8a8;
+}
+
+.md-hd-bottom {
+    height: 134px;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 0;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+    border-radius: 12px;
+}
+.md-hd-line {
+    width: 100%;
+    border-top: solid 1px #4a596c;
+}
+.md-hd-bottom-row {
+    height: 60px;
+    width: 100%;
+}
+.md-hd-bottom-row-text1 {
+    font-size: 15px;
+}
+.md-hd-bottom-row-text2 {
+    font-size: 14px;
+}
+.md-hd-top-eth-balance {
+    font-size: 26px;
+    position: relative;
+    top: -2px;
+}
+.pp-hd-top-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pp-hd-top-btn .btn-default {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    outline: none;
+    border-radius: 8px;
+    font-size: 13px;
+    padding: 7px 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.pp-hd-top-btn .btn-default:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+.pp-hd-status {
+    margin-left: 20px;
+}
+.pp-hd-status-icon {
+    width: 12px;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+.pp-hd-status-icon img {
+    width: 12px;
+}
+.pp-hd-status-txt {
+    display: inline-block;
+    font-size: 13px;
+}
+.pp-hd-bottom-row {
+    display: flex;
+    width: 100%;
+    font-size: 13px;
+    padding: 6px 0;
+    height: 28px;
+}
+.pp-hd-bottom-row-label {
+    width: 30%;
+    padding-right: 12px;
+    color: #535E7A;
+    text-align: right;
+}
+.pp-hd-bottom-row-txt {
+    width: 70%;
+}
+.pp-hd-bottom {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+}
+.pp-hd-bottom.locale-jp .pp-hd-bottom-row-label {
+    position: relative;
+    top: -2px;
+    font-size: 12px;
+}
+.pp-hd-bottom.locale-jp .pp-hd-bottom-row {
+    padding: 5px 0;
+}
+.pp-hd-bottom.locale-jp .pp-hd-status {
+    margin: 6px 0 22px;
+}
+.pp-hd-top-eth-balance {
+    margin-right: 5px;
+}
+.pp-hd-top-eth-balance .exc-usd-first {
+    font-size: 20px;
+}
+.pp-hd-top-eth-balance .exc-usd-second {
+    font-size: 19px;
+}
+.pp-hd-top-money-text .exc-usd-first {
+    font-size: 13px;
+}
+.pp-hd-top-money-text .exc-usd-second {
+    font-size: 12px;
+}
+.pp-hd-top-eth-text {
+    font-size: 20px;
+}
+.pp-hd-top-money-text {
+    color: #535E7A;
+    font-size: 13px;
+}
+.pp-hd-bottom-row.pp-for-warning {
+    color: #EBB346;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.03);
+    margin-top: 20px;
+    padding: 10px 16px;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+.pp-for-warning .pp-for-warning-time {
+    color: #535E7A;
+    text-align: right;
+}
+.pp-hd-bottom-row.pp-for-warning .pp-hd-bottom-row-center > img {
+    position: relative;
+    top: -2px;
+    margin-right: 5px;
+}
+.locale-jp-cn .pp-hd-bottom-row.pp-for-warning {
+    font-size: 12px;
+}
+.md-callSC {
+    margin-left: auto;
+    font-size: 12px;
+    line-height: 19px;
+    color: #2F80ED;
+    margin-top: 4px;
+}
+.md-callSCName {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-left: auto;
+}

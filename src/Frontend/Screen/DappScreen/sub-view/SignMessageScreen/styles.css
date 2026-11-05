@@ -1,0 +1,33 @@
+.pp-wrap-amount-container.pp-sign-message {
+  width: 500px;
+}
+.pp-sign-message-txt {
+  color: #535E7A;
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+.pp-sign-mesage-link {
+  color: #2F80ED;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.pp-sign-message .pp-hd-bottom-row-txt {
+  line-height: 17px;
+}
+.pp-sign-message .pp-hd-bottom-row-label {
+  line-height: 17px;
+}
+.pp-sign-message .md-hd-bottom {
+  height: 97px;
+}
+.dapp-container .container-menu-setting-content.setting-pin-container .setting-pin-row{
+  width: 500px;
+  height: 282px;
+}
+.dapp-container .container-menu-setting-content.setting-pin-container .setting-pin-row .setting-pin-title {
+  margin-bottom: 33px;
+  margin-top: 40px;
+}
+.dapp-container .container-menu-setting-content.setting-pin-container .setting-pin-row .pincode-input-container {
+  padding-bottom: 30px;
+}

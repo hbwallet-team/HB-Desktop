@@ -1,0 +1,217 @@
+#btnPP-active:active {
+  transition: all .1s ease-in-out;
+  transform: scale(0.97);
+  opacity: 0.5;
+}
+.pp-wrap-amount-row3 {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.pp-wrap-amount-value.pp-edit-width-amount{
+  width: initial;
+}
+.pp-confirm .pp-wrap-row{
+  font-size: 14px;
+  margin-top: 0;
+}
+.pp-confirm .pp-price-adjust{
+  height: 10px;
+  width: 388px;
+  margin-right: 12px;
+}
+.pp-confirm .pp-price-adjust .rc-slider {
+  width: calc(100% - 8px);
+  margin: auto;
+}
+.pp-confirm .pp-price-adjust .rc-slider-handle{
+  margin-left: -8px;
+  width: 16px;
+  height: 16px;
+  margin-top: -6px;
+  border: 3px solid #1A88FF;
+}
+.pp-confirm .pp-price-adjust .rc-slider-rail{
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 7px;
+  width: calc(100% + 8px);
+  margin-left: -8px;
+}
+.pp-confirm .pp-price-adjust .rc-slider-step{
+  height: 7px;
+}
+.pp-confirm .pp-price-adjust .rc-slider-track {
+  height: 7px;
+  margin-left: -8px;
+  border-radius: 6px 0 0 6px;
+}
+.pp-confirm .pp-wrap-row{
+  margin-bottom: 0;
+}
+.pp-confirm .pp-wrap-row.pp-mgBottom-6{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.pp-hide-amount{
+  margin-top: 5px;
+  font-size: 14px;
+}
+.pp-input-recent-price.hb-input-button-container{
+  width: 66px;
+  margin-bottom: 1px;
+}
+.pp-input-recent-price .spacing-left-1 {
+  padding-right: 27px;
+}
+.pp-input-recent-price .normal-input {
+  border: unset;
+  text-decoration: underline;
+  padding-left: 0;
+  background: transparent;
+}
+.pp-input-recent-price .hb-input-button-symbol {
+  margin-right: 0;
+  font-size: 13px
+}
+.pp-confirm .pp-wrap-row .pp-wrap-amount-title{
+  font-size: 14px;
+}
+.pp-confirm .pp-wrap-row .pp-wrap-amount-value {
+  font-size: 14px;
+}
+.pp-confirm .pp-wrap-row .pp-wrap-amount-usd .pp-usd-price {
+  font-size: 12px;
+  color: #a8a8a8;
+}
+.pp-confirm .pp-wrap-row .pp-wrap-amount-usd {
+  text-align: left;
+}
+.pp-wrap-amount-container.pp-newLayoutGas .pp-wrap-row.pp-mgTop-40{
+  margin-top: 22px;
+  align-items: flex-start;
+}
+.pp-take-minutes {
+  color: #535E7A;
+  margin-top: 29px;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+.pp-wrap-row .exc-usd-first{
+  font-size: 14px;
+}
+.pp-wrap-row .exc-usd-second{
+  font-size: 13px;
+}
+.pp-wrap-2pic {
+  width: 168px;
+  margin: auto;
+}
+.pp-wrap-2pic > img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.pp-wrap-2pic > img:first-child {
+  margin-bottom: 15px;
+}
+.pp-fillOption .pp-wrap-row.pp-mgTop-40{
+  margin-top: 35px;
+}
+.pp-wrap-amount-container.pp-newLayoutGas .pp-header-convert{
+  width: 170px;
+  margin-top: -17px;
+  padding: 0;
+  text-align: center;
+}
+.pp-fillOption .pp-header-convert .pp-wrap2Convert{
+  text-align: center;
+  margin-top: 30px;
+}
+.pp-fillOption .pp-header-convert .pp-wrap2Convert > img{
+  margin-top: 7px;
+}
+.pp-fillOption .pp-header-convert .pp-wrap2Convert > img.pp-imgFirstConvert {
+  margin-bottom: 48px;
+}
+.pp-fillOption .pp-header-convert .pp-wrap2Convert > img.pp-imgSecondConvert {
+  transform: scaleX(-1);
+}
+.pp-fillOption .pp-header-convert {
+  padding: 0;
+}
+.pp-fillOption .pp-wrap2Convert-title {
+  font-size: 12px;
+  color: #535E7A;
+}
+.pp-fillOption .pp-adjustText {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 2px;
+}
+.pp-forCancelOption {
+  font-size: 14px;
+  margin-bottom: 9px;
+}
+.pp-forCancelDetail {
+  font-size: 14px;
+  color: #535E7A;
+  margin-bottom: 21px;
+}
+.pp-wrap-row.pp-mgTop-40.pp-mgTop-cancelOption {
+  margin-top: 30px;
+}
+.pp-cancelOptionConvert{
+  transform: scaleX(-1);
+}
+.pp-header-weth > img.pp-imgBlockchain {
+  max-width: 110px;
+}
+.pp-wrap-amount-container.pp-newLayoutGas .pp-value-price {
+  margin-bottom: 7px;
+  font-size: 13px;
+}
+.pp-wrap-amount-container.pp-newLayoutGas .pp-title-price{
+  text-transform: unset;
+  font-size: 13px;
+  color: #535E7A;
+}
+.pp-wrap-amount-container.pp-newLayoutGas .pp-confirm .pp-wrap-row .pp-wrap-amount-usd .pp-usd-price {
+  color: #535E7A;
+}
+.pp-wrap-amount-container.pp-newLayoutGas .pp-wrap-amount-title {
+  text-transform: unset;
+  font-size: 13px;
+  color: #535E7A;
+}
+.pp-wrap-amount-container.pp-newLayoutGas .hb-input-button-left {
+  left: 29px;
+  font-size: 13px;
+  color: #F2F5FC;
+}
+.pp-wrap-amount-container.pp-newLayoutGas .pp-input-recent-price .normal-input {
+  color: #1A88FF;
+  background: transparent;
+}
+.pp-confirm .pp-price-adjust .rc-slider-rail {
+  height: 4px;
+  background-color: #F2F5FC;
+}
+.pp-confirm .pp-price-adjust .rc-slider-handle {
+  width: 16px;
+  height: 16px;
+}
+.pp-confirm .pp-price-adjust .rc-slider-track {
+  height: 4px;
+  background-color: #1A88FF;
+}
+.txt-noImage.txt-editWidth {
+  width: 168px;
+  height: 104px;
+}
+.txt-noImage.txt-editWidth:hover {
+  transform: scale(1);
+  cursor: unset;
+}
+.hb-input-button .symbolGwei {
+  padding-right: 34px;
+}

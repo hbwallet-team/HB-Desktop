@@ -1,0 +1,118 @@
+#btnPP-active:active {
+  transition: all .1s ease-in-out;
+  transform: scale(0.97);
+  opacity: 0.5;
+}
+.pp-wrap-amount-row3 {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.pp-header-convert{
+  padding: 0 68px;
+}
+.pp-wrap-amount-container.pp-allWrap-popup .pp-header-convert{
+  padding: 0 70px;
+  /* margin-top: -17px; */
+}
+.pp-number-amount{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 0;
+}
+.pp-line-amount{
+  width: 590px;
+  height: 1px;
+  background-color: #4a596c;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 26px;
+}
+.pp-wrap-amount-container.pp-allWrap-popup .pp-wrap-input .hb-input-button input, .pp-wrap-amount-container.pp-allWrap-popup .pp-wrap-input .hb-input-button-left .hb-input-button-symbol{
+  font-size: 13px;
+}
+.pp-wrap-input.hb-input-button-container{
+  margin-bottom: 0;
+}
+.pp-header-eth {
+  text-align: center;
+}
+.pp-header-weth > img, .pp-header-eth > img{
+  max-width: 168px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+.pp-header-convert > img {
+  position: relative;
+  /* top: -10px; */
+}
+.pp-YourMainAccount {
+  text-align: center;
+  padding-bottom: 9px;
+  font-size: 12px;
+  color: #F2F2F2;
+}
+.pp-wrap-row.pp-text-center {
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.pp-centerText{
+  text-align: center;
+  font-size: 13px;
+  color: #F2F5FC;
+  padding-top: 2px;
+}
+.pp-centerText:last-child{
+  color: #535E7A;
+  font-size: 12px;
+}
+.pp-wrap-row.pp-edit-input {
+  margin-top: 35px;
+  margin-left: 37px;
+}
+.pp-wrap-row.pp-edit-input .pp-wrap-amount-title {
+  font-size: 13px;
+  width: 127px;
+  text-align: left;
+  white-space: pre-line;
+}
+.pp-wrap-row.pp-edit-input .pp-wrap-amount-value {
+  width: 436px;
+}
+.pp-wrap-amount-container.pp-allWrap-popup .pp-wrap-row.pp-edit-input .pp-wrap-amount-value .normal-input {
+  min-height: 35px;
+  background: #263352;
+  border: 1px solid #263352;
+  border-radius: 8px;
+}
+.pp-wrap-amount-container.pp-allWrap-popup .pp-wrap-row.pp-edit-input .pp-wrap-amount-value .hb-input-button-left {
+  min-height: 35px;
+  font-size: 13px;
+  color: #535E7A;
+  right: 0;
+  left: inherit;
+}
+.pp-pointer {
+  cursor: pointer;
+  width: 24px;
+}
+.pp-wrap-row.pp-edit-input.pp-wrap-inputAmount {
+  margin-top: 14px;
+  padding-left: 12px;
+  margin-left: 0;
+  height: 35px;
+  margin-bottom: 17px;
+}
+.pp-wrap-row.pp-edit-input.pp-wrap-inputAmount .pp-wrap-amount-title {
+  width: 192px;
+  text-transform: unset;
+  color: #535E7A;
+  margin-right: 10px;
+  text-align: right;
+  margin-top: -2px;
+}
+.pp-wrap-row.pp-edit-input.pp-wrap-inputAmount .hb-input-button {
+  border-radius: 8px;
+}

@@ -1,0 +1,24 @@
+.rc-scr-container-language{
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 8px 18px;
+}
+.rc-scr-container-language .ant-radio-inner {
+    border: 1px solid #535E7A;
+    box-sizing: border-box;
+}
+.rc-scr-container-language .ant-radio-checked .ant-radio-inner {
+    border-color: #1A88FF;
+    border-width: 5px;
+}
+.rc-scr-container-language .ant-radio-checked .ant-radio-inner:after {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 0;
+    top: 0;
+    border-radius: 7px;
+    display: table;
+    background-color: #F2F5FC;
+}

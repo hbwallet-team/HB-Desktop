@@ -1,0 +1,319 @@
+.browser-container {
+  width: 100%;
+  height: 100%;
+}
+.browser-main-nav {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: relative;
+}
+.browser-form-address {
+  width: 100%;
+}
+.browser-input-address .normal-input {
+  min-height: 25px;
+  height: 25px;
+  font-size: 12px;
+  padding-right: 23px;
+}
+.browser-input-address .normal-input:read-only {
+  color: #F2F2F2;
+}
+.browser-view {
+  width: 100%;
+  height: calc(100% - 40px);
+  position: relative;
+  background: var(--background-primary-image);
+}
+.browser-webview {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.browser-back, 
+.browser-forward,
+.browser-home,  
+.browser-bookmarks,
+.browser-favorite, 
+.browser-voting {
+  display: flex;
+  width: 13px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.browser-back.disable,
+.browser-forward.disable,
+.browser-favorite.disable,
+.browser-reload.disable {
+  cursor: default;
+  pointer-events: none;
+}
+.browser-back .img-back,
+.browser-forward .img-forward {
+  margin: 0;
+  height: 13px;
+  margin-top: 1px;
+}
+.browser-reload-active,
+.browser-balance-reload-active {
+  animation: spin 2s infinite linear;
+}
+.browser-reload {
+  position: absolute;
+  right: 5px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  cursor: pointer;
+}
+.browser-home {
+  width: 18px;
+}
+.browser-btn {
+  display: flex;
+}
+.browser-address {
+  width: 550px;
+  display: flex;
+  flex-grow: 0;
+  margin: 0 20px;
+  transition: 0.3s all;
+  position: absolute;
+  left: 50%;
+  margin-left: -275px;
+}
+.browser-advertisement + .browser-address {
+  visibility: hidden;
+  opacity: 0;
+}
+.browser-address .hb-input-button-container {
+  margin: 0;
+}
+.browser-favorite {
+  width: 18px;
+}
+.browser-favorite img {
+  width: 13px;
+}
+.browser-reload img {
+  width: 13px;
+  height: 13px;
+}
+.browser-voting {
+  position: relative;
+  top: -1px;
+}
+.browser-crash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.browser-crash-img {
+  margin-bottom: 10px;
+}
+.browser-crash-txt {
+  color: #A1ACC7;
+  font-size: 13px;
+  line-height: 17px;
+}
+.browser-balance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.browser-balance-txt {
+  font-size: 13px;
+  color: #A1ACC7;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  align-items: baseline;
+}
+.browser-balance-value {
+  display: flex;
+  position: relative;
+  top: -1px;
+  white-space: nowrap;
+  align-items: flex-end;
+  margin-left: 10px;
+}
+.browser-balance-symbol {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.browser-balance-reload {
+  display: flex;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.browser-back-to-top {
+  position: absolute;
+  z-index: 1;
+  right: 30px;
+  bottom: 20px;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+}
+.browser-main-nav.locale-jp-cn .browser-balance-txt {
+  font-size: 12px;
+}
+.browser-main-nav.locale-vn .browser-balance-txt {
+  align-self: flex-end;
+}
+.browser-star {
+  background: #F2F5FC;
+  box-shadow: 0px 2px 6px rgba(29, 43, 71, 0.2);
+  border-radius: 30px;
+  padding: 3px 10px 5px;
+  margin-left: -43px;
+  margin-top: 5px;
+}
+.browser-disabled { 
+  cursor: not-allowed;
+}
+.browser-advertisement {
+  position: absolute;
+  right: 0;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.3s all;
+}
+.browser-advertisement img {
+  cursor: pointer;
+}
+.browser-advertisement-close {
+  margin: 0 3px;
+  cursor: pointer;
+}
+.is-show-address .browser-advertisement {
+  visibility: hidden;
+  opacity: 0;
+}
+.is-show-address .browser-address {
+  visibility: visible;
+  opacity: 1;
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+.browser-account{
+  font-size: 13px;
+  color: #A1ACC7;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 224px;
+  padding-right: 5px;
+  display: block;
+}
+.browser-block-title {
+  font-size: 24px;
+  padding: 30px 0;
+  text-align: center;
+}
+.browser-view .etabs-tabgroup {
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  height: 28px;
+}
+.browser-view .etabs-tabs {
+  width: calc(100% - 29px);
+  display: flex;
+  justify-content: space-around;
+  align-content: stretch;
+}
+.browser-view .etabs-views {
+  border-top: rgba(255, 255, 255, 0.05);
+  height: calc(100vh - 68px);
+}
+.browser-view .etabs-buttons button {
+  color: #A1ACC7;
+  margin: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 0;
+  cursor: pointer;
+}
+.browser-view .etabs-buttons button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.browser-view .etabs-tab {
+  width: 100%;
+  height: 28px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: #7B8BB4;
+  cursor: pointer;
+  background: transparent;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: none;
+  border-left: none;
+  border-top: none;
+  padding: 0 8px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.browser-view .etabs-tab.active,
+.browser-view .etabs-tab:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+.browser-view .etabs-tab.visible {
+  display: flex;
+  float: none;
+}
+.browser-view .etabs-tab:only-child .etabs-tab-title {
+  padding-left: 28px;
+}
+.browser-view .etabs-tab-buttons {
+  width: 19px;
+  height: 19px;
+}
+.browser-view .etabs-tab-buttons button {
+  color: #7B8BB4;
+  width: 19px;
+  height: 19px;
+  padding: 0;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  top: -1px;
+}
+.browser-view .etabs-tab-buttons button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.browser-view .etabs-tab-title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.browser-view .etabs-tab-icon {
+  width: 16px;
+  height: auto;
+  display: flex;
+}
+.browser-view .dapp-wrapper + .etabs-views webview {
+  width: 0;
+  height: 0;
+} 
+.browser-view .etabs-views webview {
+  background: #fff;
+}

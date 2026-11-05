@@ -1,0 +1,48 @@
+
+.viewBtn-language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.margin-35 {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.btn-Inits-Size {
+  width: 15%;
+  height: 60px;
+  border-radius: 15px;
+  line-height: 19.7px;
+  font-size: 15.7px;
+}
+.ms-wrap-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ms-Img-title {
+  margin-bottom: 65px;
+}
+.ms-btn.btn-Inits-Size {
+  font-size: 13px;
+  text-align: center;
+  color: #F2F5FC;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  min-width: 200px;
+  height: 40px;
+  margin: 0;
+}
+.ms-btn.btn-Inits-Size:first-child {
+  margin-right: 24px;
+}
+.ls-Head .btn-Back {
+  margin-left: 0;
+}
+.ls-Head .img-back{
+  margin-right: 8px;
+}

@@ -1,0 +1,37 @@
+.text-danger{
+    text-align: left;
+    color: red
+}
+.form-group{
+    padding-top: 20px;
+    label{
+        color: #535E7A;
+    }
+   
+   
+    .ant-row{
+        display: flex;
+        align-items: baseline;
+    }
+    .ant-form-item{
+       
+        display: flex;
+        align-items: center;
+        .ant-form-item-label{
+            white-space: pre-wrap;
+            line-height: inherit;
+        }
+    }
+}
+.ant-input{
+    background: #263352;
+    border-radius: 8px;
+    border: 1px solid #263352 ;
+    font-size: 13px;
+    padding: 8px;
+    color: #ffffff;
+    }
+    .label-name{
+        color: #535E7A;
+        font-size: 13px;
+    }

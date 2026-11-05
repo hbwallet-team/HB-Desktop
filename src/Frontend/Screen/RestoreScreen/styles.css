@@ -1,0 +1,80 @@
+.containerCenter {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 436px;
+}
+
+.header {
+  align-self: center;
+  margin-bottom: 50px;
+  font-size: 24px;
+  color: #F2F5FC;
+}
+
+.txtTipPassphrase {
+  text-align: center;
+  line-height: 17.8px;
+  margin-bottom: 32px;
+  font-size: 13px;
+  color: #535E7A;
+}
+.textArea {
+  width: 100%;
+  margin-bottom: 32px;
+  align-self: center;
+}
+
+.areaContainer {
+  width: 100%;
+  height: 64px;
+  outline: none;
+  text-align: center;
+  padding: 7px 27px 9px 35px;
+  background-color: #263352;
+  border: #263352;
+  color: #F2F5FC;
+  font-size: 13px;
+  text-align: left;
+  line-height: 24px;
+  border-radius: 8px;
+  resize: none;
+}
+
+.img-key {
+  width: 15px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+
+.group-Buttons {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  width: 100%;
+}
+
+.btn-new-wallet {
+  font-size: 13px;
+  text-align: center;
+  color: #F2F5FC;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-sizing: border-box;
+  border-radius: 8px;
+  min-width: 96px;
+  height: 32px;
+  width: unset;
+}
+
+.btn-new-wallet.btn-OK-wallet {
+  background: #1A88FF;
+  border: 1px solid #1A88FF;
+}
+
+.areaContainer::-webkit-input-placeholder {
+  color: #535E7A !important;
+}

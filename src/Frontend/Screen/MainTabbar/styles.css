@@ -1,0 +1,449 @@
+.ant-menu .ant-menu-item {
+  font-size: 12px;
+  margin: 0 !important;
+}
+.ant-menu-item img {
+  height: auto;
+}
+.layout {
+  background-color: var(--background-primary);
+}
+.sliderTab {
+  background: var(--tab-background-color) !important;
+  min-width: 104px !important;
+  max-width: 104px !important;
+  width: 104px !important;
+  padding: 0 8px;
+}
+.menu-tab {
+  background-color: transparent !important;
+  margin-top: 14px;
+}
+.showMainAccount {
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #F2F5FC;
+  white-space: nowrap;
+  width: 88px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 14px;
+}
+.showMainAccount.text-fontJapan-2px {
+  font-size: 12px;
+}
+.tab {
+  padding: 10px 0 !important;
+  transition-property: transform;
+  transition-duration: .3s;
+  height: auto !important;
+  background-color: transparent;
+}
+.tab:active {
+  opacity: 1;
+  transform: scale(.97);
+}
+.ant-menu-item::selection {
+  opacity: 1 !important;
+}
+.ant-menu-item > a,
+.ant-menu-item::after {
+  cursor: pointer;
+}
+.ant-menu-item-disabled {
+  opacity: 0.2;
+}
+.ant-menu-item-selected {
+  cursor: default;
+}
+.tab-img {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.tab-img.tab-img25px img {
+  width: 25px;
+  height: 25px;
+}
+.text-tabbar {
+  width: 100%;
+  color: #535E7A;
+  text-align: center;
+  line-height: 16px;
+  margin-top: 8px;
+  transition: 0.3s color;
+  font-size: 14px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+.ant-menu-item-selected .text-tabbar,
+.ant-menu-item:hover .text-tabbar {
+  color: var(--text-color-primary);
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  border-radius: 8px; 
+  opacity: 1;
+  margin: 0;
+}
+#mainTabbar.ant-menu.ant-menu-dark .ant-menu-item-selected {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03)) !important;
+}
+
+.groub-nav-btns {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  height: 68px;
+}
+
+.btn-nav {
+  background-color: transparent;
+  border: 0px;
+  width: 57.5px;
+
+  transition-property: transform;
+  transition-duration: .6s;
+}
+
+.btn-nav:active {
+  opacity: 0.5;
+  transform: scale(.985);
+}
+.btn-nav:disabled {
+  opacity: 0.5;
+}
+
+.img-nav-left {
+  margin-left: 30px;
+  height: 15px;
+}
+
+.img-nav-right {
+  margin-right: 30px;
+  height: 15px;
+}
+.dropdown-language {
+  width: 108px;
+  height: 32px;
+  position: absolute;
+  bottom: 55px;
+  z-index: 2;
+}
+.select-up .Select-menu-outer {
+  position: absolute !important;
+  top: auto !important;
+  bottom: calc(100% - 1px) !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+}
+
+.select-up .is-open .Select-control {
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-right-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+}
+
+.dropdown-it {
+  display: flex;
+  justify-content: left;
+  align-self: center;
+  background-color: transparent;
+}
+
+.dropdown-img {
+  height: 17px;
+  align-self: center;
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+
+.dropdown-label-show {
+  margin-right: 5px;
+  color: #a0a0a0;
+  font-size: 13px;
+  align-self: center;
+}
+/**
+Select <Dropdown>
+**/
+
+.Select {
+  position: relative;
+}
+
+.Select,
+.Select div,
+.Select input,
+.Select span {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.Select.is-open > .Select-control {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.Select.is-open > .Select-control .Select-arrow {
+  top: -2px;
+  border-color: transparent transparent #999;
+  border-width: 0 5px 5px;
+}
+
+.Select.is-open .Select-arrow,
+.Select .Select-arrow-zone:hover > .Select-arrow {
+  border-top-color: #666;
+}
+.Select.Select--rtl {
+  direction: rtl;
+  text-align: right;
+}
+.Select-control {
+  background-color: transparent;
+  border: 0px;
+  color: #333;
+  cursor: default;
+  display: table;
+  border-spacing: 0;
+  border-collapse: separate;
+  height: 36px;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.Select-control:hover {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+
+.Select--single > .Select-control .Select-value {
+  bottom: 0;
+  color: #aaa;
+  left: 0;
+  line-height: 34px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Select-arrow-zone {
+  cursor: pointer;
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 15px;
+  padding-right: 5px !important;
+}
+.Select--rtl .Select-arrow-zone {
+  padding-right: 0;
+  padding-left: 5px;
+}
+.Select-arrow {
+  border-color: #999 transparent transparent;
+  border-style: solid;
+  border-width: 5px 5px 2.5px;
+  display: inline-block;
+  height: 0;
+  width: 0;
+  position: relative;
+}
+.Select-control > *:last-child {
+  padding-right: 0;
+}
+
+.Select .Select-aria-only {
+  position: absolute;
+  display: inline-block;
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+  float: left;
+}
+@-webkit-keyframes Select-animation-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes Select-animation-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.Select-menu-outer {
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-top: -1px;
+  max-height: 200px;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 1;
+  -webkit-overflow-scrolling: touch;
+}
+.Select-menu {
+  max-height: 198px;
+  overflow-y: auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.Select-option {
+  box-sizing: border-box;
+  color: #666666;
+  cursor: pointer;
+  display: block;
+  padding: 8px 0 8px 6px;
+  text-align: left;
+}
+
+.Select-option.is-selected {
+  background-color: #f5faff;
+  color: #333;
+}
+
+.Select-option:hover {
+  background-color: black;
+  color: white !important;
+}
+
+.Select-noresults {
+  box-sizing: border-box;
+  color: #999999;
+  cursor: default;
+  display: block;
+  padding: 8px 10px;
+}
+
+@keyframes Select-animation-spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+@-webkit-keyframes Select-animation-spin {
+  to {
+    -webkit-transform: rotate(1turn);
+  }
+}
+.ant-menu {
+  font-family: var(--font-helvetica-neue);
+}
+#mainTabbar.ant-menu {
+  font-family: var(--font-helvetica-neue) !important;
+}
+.ant-menu-dark .ant-menu-inline.ant-menu-sub {
+  background-color: transparent !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.bacoorLogoView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 32px;
+  z-index: 2;
+  margin: auto;
+  width: calc(100% - 16px);
+}
+.bacoorLogo {
+  cursor: pointer;
+  width: 70px;
+}
+.tbBadgeNumber {
+  position: absolute;
+  z-index: 2;
+  background-color: red;
+  min-width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  left: 55px;
+  font-size: 9px;
+  top: 12px;
+  padding: 0 2px;
+  color: white;
+  line-height: 15px;
+}
+.text-tabbar.text-fontJapan-2px{
+  font-size: 12px;
+}
+.edt-emergency.swal2-popup #swal2-content {
+  text-align: left;
+}
+.edt-emergency.swal2-popup .swal2-title {
+  font-size: 18px;
+}
+.edt-emergency.swal2-popup .swal2-actions {
+  margin: 1.25rem auto 0;
+}
+.feature-container {
+  width: 800px;
+  border-radius: 22px;
+  position: relative;
+  overflow: hidden;
+}
+.feature-container img {
+  width: 800px;
+  height: 500px;
+  object-fit: cover;
+}
+.feature-container .slick-dots {
+  bottom: 45px;
+}
+.feature-container .slick-dots li {
+  margin: 0;
+}
+.feature-container .slick-dots .slick-dots li button:before,
+.feature-container .slick-dots li.slick-active button:before,
+.feature-container .slick-dots li button:before {
+  color: white;
+}
+.feature-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+.feature-close img {
+  width: 25px;
+  height: 25px;
+}
+.feature-dont-show {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.feature-dont-show .ant-checkbox-inner {
+  border-radius: 100%;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #535E7A;
+  background-color: transparent;
+}
+.feature-dont-show .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}

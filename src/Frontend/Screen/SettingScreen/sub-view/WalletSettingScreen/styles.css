@@ -1,0 +1,209 @@
+.ws-container {
+  height: calc(100% - 64px);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.wrap-ws-forScroll {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+.wrap-ws-forScroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03);
+}
+.wrap-ws-forScroll::-webkit-scrollbar{
+  width: 4px;
+}
+.wrap-ws-forScroll::-webkit-scrollbar-thumb{
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+.wrap-ws-forScroll::-webkit-scrollbar-thumb:hover{
+  background: #eee;
+}
+.ws-panel {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  padding: 10px;
+  width: calc(100% / 3 - 20px);
+  margin: 0 10px;
+  float: left;
+}
+.ws-panel-title {
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding: 5px 10px 0;
+}
+.ws-list-account {
+  color: #F2F5FC;
+}
+.ws-container-left {
+  width: 50%;
+  padding: 15px;
+}
+.ws-container-right {
+  width: 50%;
+  padding: 15px;
+}
+.ws-collapse-left {
+  width: 100%;
+  background-color: transparent;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  color: white;
+  outline: none;
+}
+.ant-collapse-content {
+  color: white;
+}
+.ws-cell-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.ws-cell-name {
+  padding-right: 10px;
+  word-break: break-word;
+}
+.ws-button {
+  height: 30px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  margin-right: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.ws-button:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.ws-button:active {
+  transition: all .2s ease-in-out;
+  transform: scale(0.93);
+  opacity: 0.7;
+}
+.ws-img {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 3px;
+  left: -21px;
+}
+
+.ant-list-item.ws-list-item {
+  position: relative;
+  border: none;
+  border-radius: 12px;
+  padding: 9px 10px;
+  cursor: pointer;
+}
+.ant-list-item.ws-list-item:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+.ws-list-item .ant-list-item-content {
+  align-items: center;
+  transition: all .1s ease-in-out;
+  position: relative;
+}
+.ws-list-item .ant-list-item-content > span {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.ant-list-item.ws-list-item:hover .ws-button-icon {
+  opacity: 1;
+}
+.ws-cell-right-background {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.ws-cell-right-background:active {
+  transition: all .1s ease-in-out;
+  transform: scale(0.99);
+  opacity: 0.7;
+}
+.ws-container .ws-collapse-left .ws-coll-panel i > svg {
+  display: none;
+}
+.hlp-container .hlp-sub-container i > svg {
+  display: none;
+}
+.ws-button-icon {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  opacity: 0;
+  transition: 0.2s opacity;
+}
+.mg-right18 {
+  margin-right: 18px;
+}
+.ws-add-custom-token {
+  padding: 25px 0 30px;
+  text-align: center;
+}
+.ws-btn-add-custom-token {
+  background: #1A88FF;
+  border: 1px solid #1A88FF;
+  border-radius: 8px;
+  color: #F2F5FC;
+  font-size: 14px;
+  text-align: center;
+  padding: 6px 15px 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+}
+.ws-btn-add-custom-token:hover {
+  opacity: 0.8;
+}
+.ws-help-txt {
+  font-size: 14px;
+  color: #535E7A;
+}
+.ws-editContent {
+  height: 100%;
+}
+.wrap-ws-container {
+  height: 100%;
+}
+.wrap-ws-panel {
+  height: auto;
+  display: table;
+  width: 100%;
+  padding: 20px 10px 20px 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 0 0 12px 12px;
+}
+.sts-container.ws-editContent {
+  background: unset;
+}
+.sts-container.ws-editContent .sts-header {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px 12px 0 0;
+}
+.wrap-ws-forScroll {
+  height: 100%;
+}
+.ws-cell-enabled {
+  margin-left: auto;
+  cursor: pointer;
+}
+.ws-list-ether .ws-list-item {
+  padding-left: 30px;
+}
+.ws-list-ether .ws-list-item > span {
+  position: relative;
+  display: flex;
+  flex: 1 1;
+}

@@ -1,0 +1,27 @@
+.rc-scr-container{
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+}
+.rc-scr-container .ant-list-grid .ant-list-item {
+    padding: 5px 0;
+}
+.rc-scr-container .ant-radio-inner {
+    border: 1px solid #535E7A;
+    box-sizing: border-box;
+}
+.rc-scr-container .ant-radio-checked .ant-radio-inner {
+    border-color: #1A88FF;
+    border-width: 5px;
+}
+.rc-scr-container .ant-radio-checked .ant-radio-inner:after {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 0;
+    top: 0;
+    border-radius: 7px;
+    display: table;
+    background-color: #F2F5FC;
+}

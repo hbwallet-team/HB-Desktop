@@ -1,0 +1,61 @@
+.gas-slider-container {
+  position: relative;
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+}
+.gas-slider-container .gas-slider {
+  width: 436px;
+}
+.gas-slider-container .gas-fee {
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+.gas-fee .exc-usd-first {
+  font-size: 13px;
+}
+.gas-fee .exc-usd-second {
+  font-size: 12px;
+}
+.gas-slider-container .rc-slider-track {
+  background: #1A88FF;
+}
+.gas-slider-container .rc-slider-handle {
+  border: solid 3px #1A88FF;
+  width: 16px;
+  height: 16px;
+  margin-top: -6px;
+}
+.gas-slider-container .rc-slider-handle:hover,
+.gas-slider-container .rc-slider-handle:focus {
+  border-color: #1A88FF;
+  outline: none;
+}
+.gas-slider-container .gas-level {
+  width: 436px;
+  display: flex;
+  justify-content: space-between;
+  color: #535E7A;
+  margin-top: 5px;
+}
+.gas-slider-container .gas-input {
+  width: 60px;
+  margin-left: 11px;
+}
+.gas-input .gas-input-value {
+  margin-bottom: 0;
+}
+.gas-input-value .normal-input {
+  border: unset;
+  text-decoration: underline;
+  padding-left: 0;
+  background: transparent;
+  color: #1A88FF;
+  font-size: 13px;
+  margin-top: -1px;
+  padding-right: 0;
+}
+.gas-input-value .hb-input-button-symbol {
+  font-size: 13px;
+  margin: -2px 0 0 0;
+}

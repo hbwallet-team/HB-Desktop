@@ -1,0 +1,17 @@
+.pincode-input-container>.pincode-input-text {
+  background: #F2F5FC !important;
+  border: 1px solid #F2F5FC !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+.pincode-input-container>.pincode-input-text:focus {
+  background: pink;
+}
+input[value]:not([value=""]).pincode-input-text {
+  opacity: 1 !important;
+}
+input[value]:not([value=""]).pincode-input-text:focus {
+  display: none;
+}

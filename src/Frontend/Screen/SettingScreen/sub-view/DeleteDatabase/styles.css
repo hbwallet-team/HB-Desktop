@@ -1,0 +1,46 @@
+.rsw-message {
+  width: 61%;
+  line-height: 20px;
+  white-space: pre-wrap;
+  margin: auto;
+  font-size: 13px;
+  text-align: center;
+  color: #A1ACC7;
+  margin-top: 31px;
+}
+.rsw-opacity {
+  opacity: 0.9;
+}
+.rsw-button {
+  justify-content: flex-end;
+  background: #1A88FF;
+  border: 1px solid #1A88FF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  min-width: 96px;
+  padding: 0 5px;
+  height: 32px;
+  font-size: 13px;
+  text-align: center;
+  color: #F2F5FC;
+}
+.rsw-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 61%;
+  margin: auto;
+  margin-bottom: 32px;
+  margin-top: 25px;
+}
+.ant-message .ant-message-notice .ant-message-notice-content i>svg{
+  display: none;
+}
+.wrap-WalletInitialize {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03));
+  border-radius: 12px;
+}
+.container-menu-setting-content.rsw-opacity {
+  padding: 0;
+  padding-left: 40px;
+  max-width: unset;
+}

@@ -1,0 +1,48 @@
+
+.fwc-dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid white;
+}
+.fwc-txtCurrency {
+  margin-left: 12px;
+}
+.fwc-row-container {
+  padding-top: 15px;
+}
+.fwc-text-agree {
+  font-size: 14px;
+}
+.fwc-btn-group {
+ display: flex;
+ margin-top: 10px;
+ margin-bottom: 20px;
+}
+.fwc-buy {
+  height: 39px;
+  border-radius: 10px;
+  background-color: #009086;
+  border: 1px solid #009086;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 14px;
+}
+.fwc-container-btn-cancle {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+}
+.fwc-container-btn-buy {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+.fwc-text-14 {
+  font-size: 14px;
+}
+.fwc-amountEth {
+  font-size: 18px;
+  margin-left: 12px;
+}

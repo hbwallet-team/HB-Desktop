@@ -1,0 +1,120 @@
+.pp-request-token {
+  width: 500px;
+}
+.pp-wrap-amount-container .pp-wrap-amount-content.pp-tlr-content {
+  background: #1D2B47;
+  box-shadow: 0px 16px 30px rgba(7, 10, 18, 0.08);
+  border-radius: 12px;
+}
+.pp-wrap-amount-content.pp-tlr-content{
+  width: 500px;
+  height: 428px;
+}
+#btnPP-active:active {
+  transition: all .1s ease-in-out;
+  transform: scale(0.97);
+  opacity: 0.5;
+}
+.pp-tlr-content .pp-close{
+  position: absolute;
+  right: 20px;
+  left: inherit;
+}
+.pp-wrap-amount-content.pp-tlr-content .pp-token-request-form {
+  height: calc(100% - 50px);
+  width: 100%;
+}
+.pp-wrap-amount-content.pp-tlr-content .pp-wrap-amount-body.pp-tlr-body{
+  height: calc(100% - 70px);
+  width: calc(100% - 12px);
+  margin-left: 6px;
+  background-color: unset;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 20px 20px 0 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.pp-request-token .pp-wrap-row {
+  margin-bottom: 20px;
+}
+.pp-wrap-amount-value.pp-tlr-input > .normal-input {
+  padding-left: 7px;
+}
+.pp-request-token .pp-wrap-amount-title{
+  font-size: 13px;
+  margin-right: 10px;
+  width: 170px;
+}
+.pp-wrap-amount-row3 {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.pp-header-convert{
+  padding: 0 68px;
+}
+.pp-number-amount{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 0;
+}
+.pp-number-eth{
+  text-align: center;
+  min-width: 215px;
+}
+.pp-number-weth{
+  text-align: center;
+  min-width: 250px;
+}
+.pp-line-amount{
+  width: 590px;
+  height: 1px;
+  background-color: #4a596c;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 26px;
+}
+.pp-wrap-amount-value.pp-tlr-input {
+  width: 350px;
+  position: relative;
+}
+.pp-wrap-row.pp-tlr-row.pp-tlr-row-error {
+  margin-bottom: 5px;
+  align-items: baseline;
+}
+.pp-tlr-row-error .pp-tlr-input .hb-input-button-error {
+  width: 100%;
+  margin-bottom: 5px;
+  position: relative;
+  top: 3px;
+}
+.pp-tlr-input .hb-input-button-error {
+  top: 33px;
+  text-align: left;
+}
+.pp-tlr-input .pp-wrap-input .hb-input-button input {
+  height: 36px;
+}
+.pp-wrap-input .hb-input-button input, .pp-wrap-input .hb-input-button-left .hb-input-button-symbol{
+  font-size: 17px;
+}
+.pp-wrap-input.hb-input-button-container{
+  margin-bottom: 0;
+}
+.pp-wrap-amount-content.pp-tlr-content .normal-input {
+  background-color: #263352;
+  border-radius: 8px;
+  border: 1px solid #263352;
+}
+.pp-wrap-amount-body.pp-tlr-body::-webkit-scrollbar {
+  width: 4px;
+}
+.pp-wrap-amount-body.pp-tlr-body::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+.pp-wrap-amount-body.pp-tlr-body::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}

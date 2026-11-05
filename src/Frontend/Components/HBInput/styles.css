@@ -1,0 +1,137 @@
+.normal-input {
+  min-height: 32px;
+  width: 100%;
+  font-size: 13px;
+  background-color: #263352;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #263352;
+  position: relative;
+  border-radius: 8px;
+  color: #F2F5FC;
+}
+.normal-input:disabled {
+  cursor: not-allowed;
+  color: #535E7A;
+}
+.normal-input:read-only {
+  color: #535E7A;
+}
+
+.input-error {
+  min-height: 32px;
+  width: 100%;
+  font-size: 13px;
+  background-color: #263352;
+  border: 1px solid #FF295C;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+}
+.input-success {
+  min-height: 32px;
+  width: 100%;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid #009186;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+}
+.hb-input-button {
+  display: flex;
+  position: relative;
+}
+.hb-input-button-left,
+.hb-input-button-right {
+  position: absolute;
+  align-items: center;
+  min-height: 32px;
+  display: flex;
+  font-size: 17px;
+  z-index: 999;
+}
+.hb-input-button-left {
+  left: 0;
+}
+.hb-input-button-right {
+  right: 0;
+}
+.hb-input-button-container {
+  margin-bottom: 15px;
+  width: 100%;
+  position: relative;
+}
+.hb-imput-button-icon-containt {
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+}
+.hb-imput-button-icon {
+  padding-right: 8px;
+  height: 15px;
+}
+.hb-input-button-symbol {
+  margin-right: 10px;
+  font-size: 14px;
+  margin-top: 1px;
+  color: #535E7A;
+}
+.hb-input-button-left .hb-imput-button-icon {
+  padding-left: 10px;
+}
+.spacing-right-1 {
+  padding-right: 55px;
+}
+.spacing-right-2 {
+  padding-right: 80px;
+}
+.spacing-left {
+  padding-left: 32px;
+}
+.hb-input-button-bottom {
+  display: flex;
+  position: relative;
+}
+@keyframes opacityIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes opacityOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+.hb-input-button-error{
+  width: calc(100% - 32px);
+  color: #FF295C;
+  font-size: 12px;
+  position: absolute;
+  top: 2px;
+  text-align: left;
+}
+.hb-input-button-success{
+  width: calc(100% - 40px);
+  color:  #009186;
+  font-size: 12px;
+}
+.hb-input-button-error-mess {
+  opacity: 0;
+}
+.hb-input-button-mess-In {
+  animation-name: opacityIn;
+  animation-duration: 0.5s;
+  opacity: 1;
+  text-align: left;
+}
+
+.hb-input-button-countMax {
+  text-align: right;
+  color: #535E7A;
+  font-size: 12px;
+  width: 100%;
+}
+input[type=number].no-spinner::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+ margin: 0; 
+}

@@ -1,0 +1,50 @@
+.ess-row-2-2-other {
+  width: calc(50% - 2px);
+  padding-right: 15px;
+}
+.ess-row-2-1-other {
+  width: calc(50% - 2px);
+  padding-left: 15px;
+}
+.ess-row-4-other {
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+  height: 250px;
+}
+
+.ess-qrcode {
+  width: 200px;
+  height: 200px;
+
+  transition-property: transform;
+  transition-duration: .3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.ess-qrcode:active {
+  transform: scale(0.97);
+}
+.esso-qrcode-content {
+  display: flex;
+  justify-content: center;
+}
+.esso-marginTop {
+  margin-top: 30px
+}
+
+.esso-row-4-other {
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.ess-rate-right-other {
+  width: 90%;
+  height: 100%;
+  display: flex;
+}

@@ -1,0 +1,111 @@
+
+.pm-listContainer {
+  padding-top: 10px;
+}
+.pm-container {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.pm-btn-add {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 39px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.pm-btn-group {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 5px;
+ }
+.pm-button {
+   /* Button color background */
+   background-color: transparent;
+   border: 1px solid white;
+   outline:none;
+   cursor: pointer;
+  
+   /* Text inside button*/
+   color: var(--text-color-primary);
+   font-family: var(--font-roboto);
+   letter-spacing: 0.8px;
+}
+.pm-button-buy {
+  /* Button color background */
+  outline:none;
+  cursor: pointer;
+ 
+  /* Text inside button*/
+  color: var(--text-color-primary);
+  font-family: var(--font-roboto);
+  letter-spacing: 0.8px;
+}
+.pm-button:disabled {
+  opacity: 0.5;
+}
+.pm-list-item {
+  width: 100%;
+  background-color: rgba(8, 28, 52, 0.8);
+}
+.pm-list-item:hover {
+  background-color: rgba(24, 57, 96, 0.8);
+}
+/* .pm-list-item:active {
+  transition: all .2s ease-in-out;
+  transform: scale(0.93);
+  opacity: 0.7;
+} */
+.pm-cell-card {
+  display: flex;
+  width: 100%;
+}
+.pm-cell-col1 {
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+}
+.pm-cell-col2 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.pm-cell-col3 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.pm-cell-col4 {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+.pm-cell-selectedBox {
+  width: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pm-cell-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+}
+#btnDisable {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.pm-cell-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pm-cell-card-img {
+  width: 52px;
+  height: 34px;
+}
+.pm-cell-card-img-toggle {
+  width: 26px;
+  height: 15px;
+  margin-top: -1px;
+}

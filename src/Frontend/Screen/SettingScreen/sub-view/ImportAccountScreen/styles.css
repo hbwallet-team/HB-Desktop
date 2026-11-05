@@ -1,0 +1,52 @@
+.import-account {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+.import-account-attention {
+  color: #FF295C;
+  font-size: 9px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.import-account-desc {
+  font-size: 13px;
+  line-height: 20px;
+}
+.md-import {
+  text-align: center;
+  font-size: 13px;
+  line-height: 19px;
+  padding-top: 19px;
+  padding-bottom: 14px;
+}
+.md-import > div {
+  margin-top: 10px;
+}
+.md-import-img {
+  margin-bottom: 10px;
+}
+.md-import-form .ant-row {
+  padding: 0 20px 15px;
+}
+.md-import-form .ant-list-item {
+  padding: 5px 0;
+}
+.sts-container .md-header {
+  background: transparent;
+  font-size: 24px;
+  height: 64px;
+}
+.sts-container .md-content {
+  background: transparent;
+  padding-right: 20%;
+}
+.sts-container .md-footer {
+  background: transparent;
+  padding-right: calc(20% + 15px);
+  justify-content: space-between;
+  padding-left: 20%;
+}
+.sts-container .pp-close {
+  visibility: hidden;
+}

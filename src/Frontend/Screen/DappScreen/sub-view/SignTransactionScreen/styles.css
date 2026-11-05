@@ -1,0 +1,59 @@
+.pp-error {
+  font-size: 13px;
+  color: #FF295C;
+  margin-bottom: 14px;
+  padding: 0 20px;
+}
+.pp-wrap-amount-container.pp-sign-transaction {
+  width: 720px;
+}
+.pp-sign-transaction-txt {
+  color: #535E7A;
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+.pp-sign-mesage-link {
+  color: #2F80ED;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.pp-sign-transaction .pp-hd-bottom-row {
+  height: auto;
+}
+.pp-sign-transaction .pp-hd-bottom-row-txt {
+  line-height: 17px;
+  width: calc(100% - 160px);
+}
+.pp-sign-transaction .pp-hd-bottom-row-label {
+  line-height: 17px;
+  width: 160px;
+}
+.pp-sign-transaction .md-hd-bottom {
+  height: auto;
+}
+.pp-sign-transaction .pp-value-price {
+  margin-bottom: 2px;
+  margin-top: 8px;
+}
+.pp-sign-transaction .rc-slider-track {
+  background: #1A88FF;
+}
+.pp-sign-transaction .rc-slider-handle {
+  border: solid 3px #1A88FF;
+  width: 16px;
+  height: 16px;
+  margin-top: -6px;
+}
+.pp-sign-transaction .pp-recent-price {
+  margin-left: 12px;
+}
+.pp-sign-transaction .pp-wrap-row {
+  margin-bottom: 8px;
+}
+.pp-sign-transaction .pp-input-recent-price.hb-input-button-container {
+  margin-bottom: -6px;
+  width: 58px;
+}
+.pp-sign-transaction .pp-input-recent-price .normal-input {
+  color: #1A88FF
+}

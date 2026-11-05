@@ -1,0 +1,84 @@
+.containerTermService {
+  flex: 1;
+  width: 605px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.headerTerm {
+  font-family: var(--font-helvetica-neue), sans-serif;
+  font-size: 24px;
+  color: #F2F5FC;
+  align-self: center;
+  margin-bottom: 5%;
+}
+
+.txtTermService {
+  font-family: var(--font-helvetica-neue), sans-serif;
+  text-align: left;
+  text-align: justify;
+  letter-spacing: 0.7px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  font-size: 13px;
+  color: #A1ACC7;
+}
+
+.txtTitleTermService {
+  font-family: var(--font-helvetica-neue), sans-serif;
+  font-size: 16px;
+  line-height: 1.48;
+  color: #F2F5FC;
+  text-align: left;
+  letter-spacing: 0.8px;
+  padding-bottom: 15px;
+}
+
+.scrContainer{
+  overflow-y: scroll;
+  height: 70%;
+  padding-right: 1%;
+}
+
+.group-ButtonsTerm {
+  margin-top: 39px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.btnTermService {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 13px;
+  text-align: center;
+  color: #F2F5FC;
+  height: 32px;
+  min-width: 96px;
+  padding: 0 5px;
+}
+.btnTermService.btnActive {
+  background: #1A88FF;
+  border: 1px solid #1A88FF;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+#btnTerm-InActive{
+  width: 100px;
+  height: 39px;
+  border-radius: 10px;
+  font-size: 14px;
+  border: solid 1px #555555;
+  color: #555555;
+  transition: all .2s ease-in;
+  float: left;
+  cursor: not-allowed;
+  pointer-events: none
+}

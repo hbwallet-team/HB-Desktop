@@ -1,0 +1,11 @@
+.switch-account {
+  padding: 15px 20px;
+}
+.switch-account-txt {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+.switch-account-addr {
+  font-size: 13px;
+  color: #535E7A;
+}

@@ -1,0 +1,279 @@
+.apply-airdrop-form .pp-wrap-amount-body {
+  display: flex;
+  padding: 20px 20px 35px;
+}
+.apply-airdrop-form .pp-input-phone {
+  width: 240px;
+  margin-left: 25px;
+  position: relative;
+}
+.apply-airdrop-form .pp-input-card-preview {
+  position: absolute;
+  width: 192px;
+  height: 120px;
+  z-index: 1;
+  left: 24px;
+  top: 40px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+}
+.apply-airdrop-form .pp-input-amount {
+  width: 515px;
+}
+.apply-airdrop-form .pp-wrap-amount-value {
+  width: calc(100% - 180px);
+}
+.apply-airdrop-form .pp-wrap-amount-title {
+  width: 167px;
+  display: flex;
+  white-space: pre;
+  justify-content: flex-end;
+}
+.apply-airdrop-form .pp-wrap-row {
+  margin-bottom: 24px;
+}
+.apply-airdrop-form .pp-tlr-checkbox {
+  align-items: flex-start;
+}
+.apply-airdrop-form .pp-wrap-amount-bottom {
+  justify-content: flex-start;
+}
+.apply-airdrop-form .pp-wrap-amount-btn {
+  justify-content: space-between;
+  padding-left: 170px;
+  width: 520px;
+  display: flex;
+}
+.pp-select-fee {
+  margin: 19px 0 0;
+}
+.pp-confirm-airdrop .pp-wrap-amount-title {
+  width: 105px;
+}
+.pp-confirm .pp-wrap-amount-value.pp-for-warning {
+  color: #EBB346;
+  font-size: 12px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -3px;
+}
+.pp-confirm .pp-wrap-amount-value.pp-for-warning img {
+  margin-right: 5px;
+}
+.pp-confirm .pp-wrap-row.pp-mgTop-10 {
+  margin-top: 10px;
+  align-items: flex-start;
+}
+.pp-confirm.pp-wrap-amount-body {
+  padding-bottom: 20px;
+}
+.rtc-container .exs-btn.exs-pp-unwrap-btn.trf-request{
+  min-width: 96px;
+  width: unset;
+}
+.minWidth120.exs-btn {
+  min-width: 120px;
+}
+.afa-tokenName {
+  font-size: 12px;
+  line-height: 16px;
+  color: #535E7A;
+  margin-left: 180px;
+  margin-bottom: 10px;
+  margin-top: -8px;
+}
+.afa-tokenSymbol {
+  font-size: 12px;
+  line-height: 16px;
+  color: #535E7A;
+  margin-left: 180px;
+  margin-bottom: 10px;
+  margin-top: -8px;
+}
+.afa-tokenDecimals {
+  font-size: 12px;
+  line-height: 16px;
+  color: #535E7A;
+  margin-left: 180px;
+  margin-bottom: 10px;
+  margin-top: -8px;
+}
+.afa-container {
+  height: 100%;
+}
+.afa-container .rtc-container {
+  height: 100%;
+}
+.afa-container .rtc-container .apply-airdrop-form {
+  overflow-y: scroll;
+  height: calc(100% - 64px);
+}
+.afa-container .rtc-container .apply-airdrop-form::-webkit-scrollbar {
+  width: 4px;
+}
+.afa-container .rtc-container .apply-airdrop-form::-webkit-scrollbar-thumb {
+  background: #808b9c;
+  border-radius: 10px;
+}
+.afa-container .rtc-container .apply-airdrop-form::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+.afa-container .rtc-container .apply-airdrop-form .pp-input-phone {
+  margin-left: 535px;
+  position: fixed;
+}
+.afa-container .rtc-container .apply-airdrop-form .pp-wrap-amount-value.pp-tlr-input {
+  width: calc(100% - 185px);
+}
+.afa-container .rtc-container .apply-airdrop-form .afa-AirDropFix {
+  position: absolute;
+  left: 16px;
+  top: 90px;
+}
+.afa-container .rtc-container .apply-airdrop-form .afa-AddAirDrop {
+  position: absolute;
+  left: 16px;
+  top: 90px;
+  width: 209px;
+}
+.afa-container .rtc-container .apply-airdrop-form .afa-AirDropName {
+  font-size: 9px;
+  line-height: 12px;
+  text-transform: capitalize;
+  color: #F2F5FC;
+}
+.afa-container .rtc-container .apply-airdrop-form .afa-AirDropDate {
+  font-size: 9px;
+  line-height: 12px;
+  color: #535E7A;
+}
+.afa-container .rtc-container .apply-airdrop-form .afa-AirDropContent {
+  font-size: 9px;
+  line-height: 12px;
+  color: #535E7A;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 158px;
+}
+.afa-container .rtc-container .apply-airdrop-form .afa-AirDropNew {
+  display: flex;
+  height: 55px;
+  align-items: center;
+  border-bottom: 1px solid #1D2B47;
+}
+.afa-container .rtc-container .apply-airdrop-form .afa-AirDropImg {
+  width: 37px;
+  max-height: 40px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.afa-container .rtc-container .apply-airdrop-form .afa-AirDropInfo {
+  position: relative;
+}
+.afa-container .rtc-container .apply-airdrop-form .afa-AirDropNote {
+  position: absolute;
+  background: #FF295C;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  top: 0;
+  right: 10px;
+}
+.afa-container .rtc-container .apply-airdrop-form .pp-wrap-amount-title.mgBottom85 {
+  padding-top: 10px;
+}
+.afa-container .rtc-container .pp-wrap-amount-value.pp-tlr-input > .normal-input.afa-textArea {
+  height: 116px;
+  padding: 8px;
+}
+.afa-container .rtc-container .pp-wrap-amount-value.pp-tlr-input > .normal-input.imageLink {
+  padding-right: 25px;
+}
+.afa-container .rtc-container .apply-airdrop-form .pp-wrap-amount-btn {
+  width: 512px;
+}
+.afa-container .rtc-container .apply-airdrop-form .afa-startDate {
+  width: 164px;
+}
+.afa-container .rtc-container .apply-airdrop-form .afa-createDate {
+  position: absolute;
+  left: 141px;
+  top: 8px;
+  cursor: pointer;
+}
+.afa-container .rtc-container .apply-airdrop-form .afa-endDate {
+  width: 164px;
+}
+.afa-ttdateStart {
+  z-index: 1000;
+}
+.afa-ttdateStart .ant-tooltip-inner {
+  background-color: #1D2B47;
+  max-width: 240px;
+  padding: 0;
+}
+.afa-ttdateStart .react-datepicker__month-container {
+  background: none;
+}
+.afa-ttdateStart .react-datepicker__header {
+  background: none;
+  border: none;
+}
+.afa-ttdateStart .react-datepicker {
+  background: none;
+  border: none;
+}
+.afa-ttdateStart .exs-text-expires {
+  background: rgba(255, 255, 255, 0.02);
+}
+.afa-ttdateStart .react-datepicker__day-name {
+  font-size: 12px;
+  color: #535E7A;
+}
+.afa-ttdateStart .react-datepicker__day, .afa-ttdateStart .react-datepicker__time-name {
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.afa-ttdateStart .react-datepicker__current-month, .afa-ttdateStart .react-datepicker-time__header {
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.afa-ttdateStart .react-datepicker__day--selected {
+  border-radius: 50%;
+  background-color: #3e4f77;
+}
+.afa-ttdateStart .react-datepicker__day:hover {
+  border-radius: 50%;
+  background-color: #3e4f77;
+}
+.afa-ttdateStart .ant-select-selection {
+  background: #263352;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+}
+.afa-ttdateStart .ant-select-arrow {
+  color: #ffffff;
+}
+.afa-container .pp-hasInfor {
+  margin-bottom: 5px;
+}
+.afa-container .pp-hasInfor.pp-tlr-row-error .pp-tlr-input .hb-input-button-error {
+  margin-bottom: 0;
+}
+.afa-container .pp-wrap-row.pp-serviceDetail {
+  align-items: flex-start;
+}
+.afa-container .pp-wrap-row.pp-serviceDetail .pp-wrap-amount-title {
+  padding-top: 5px;
+}
+.pp-serviceDetail.pp-wrap-row.pp-tlr-row.pp-tlr-row-error {
+  align-items: unset;
+}
+.adw-btn-upload.adw-disable-upload {
+  pointer-events: none;
+}

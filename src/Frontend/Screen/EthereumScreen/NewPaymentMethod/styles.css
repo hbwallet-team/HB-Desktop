@@ -1,0 +1,145 @@
+.npm-text-payment {
+  margin-top: 10px;
+  margin-bottom: 22px;
+}
+.npm-secure-form {
+  width: 38%;
+  display: flex;
+  justify-content: flex-end;
+}
+.npm-secure-content {
+  background-color: rgba(8, 28, 52, 0.8);
+  margin-left: 25px;
+  height: 100%;
+  width: 100%;
+  max-width: 342px;
+  padding: 35px 20px 35px 20px;
+}
+.npm-content-left {
+  width: 62%;
+}
+.npm-content {
+  display: flex;
+}
+.npm-menu-item {
+  widows: 100%;
+}
+
+.npm-dropdown-month{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid white;
+}
+.npm-menu-item {
+  text-align: center;
+}
+.npm-dropdown-token-text {
+  width: 100%;
+  padding-left: 10px;
+}
+.npm-down-icon {
+  margin-right: 5px;
+}
+.npm-dropdown-margin-left {
+  margin-left: 10px;
+}
+.npm-menu-dropdown {
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+.npm-menu-dropdown::-webkit-scrollbar {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  width: 7px;
+}
+.npm-menu-dropdown::-webkit-scrollbar-thumb {
+  background: #808b9c;
+  border-radius: 3px;
+}
+.npm-menu-dropdown::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
+}
+.npm-menu-item-selected {
+  text-align: center;
+  background-color: #c2dfed;
+}
+.npm-explain-cvc-tooltip {
+  display: flex;
+  height: 44px;
+  align-items: center;
+  padding-left: 10px;
+}
+.npm-explain-cvc-tooltip img {
+  height: 19px;
+}
+.pm-tooltip-text {
+  height: 519px;
+  width: 260px;
+  max-height: 219px;
+  max-width: 260px;
+  padding: 5px 5px 5px 5px;
+  text-align: justify;
+}
+.npm-save-card {
+  display: flex;
+  height: 44px;
+  align-items: center;
+}
+.npm-save-card img {
+  max-width: 40px;
+}
+.checkbox-input img {
+  width: 19px;
+  height: 21px;
+}
+.npm-notes {
+  width: 100%;
+  text-align: right;
+  font-size: 14px;
+}
+.npm-btn-group {
+  display: flex;
+  margin-top: 20px;
+ }
+ .npm-row-margin-bottom {
+   margin-bottom: 5px;
+ }
+ .npm-row-margin-bottom-20 {
+   margin-bottom: 5px;
+ }
+ .npm-label-14-bold {
+  font-size: 14px;
+  font-family: var(--font-roboto-bold);
+  width: 100%;
+ }
+ .npm-secure-row1 {
+   display: flex;
+   margin-bottom: 15px;
+ }
+ .npm-secure-row1 img {
+   height: 19px;
+ }
+ .npm-secure-row2 {
+  margin-bottom: 27px;
+}
+.npm-secure-row2 img {
+  max-width: 40px;
+}
+.npm-secure-row3 {
+  display: flex;
+}
+.npm-label-14-justify {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 24px;
+}
+.npm-cvc-err-mess {
+  color: #e00614;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  height: 44px;
+}

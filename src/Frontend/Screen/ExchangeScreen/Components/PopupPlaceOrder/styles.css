@@ -1,0 +1,110 @@
+.pp-place-order {
+  width: 500px;
+}
+.pp-placeOrder-wrapContent {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 12px 16px 0;
+}
+.pp-placeOrder-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 11px;
+}
+.pp-placeOrder-total-left {
+  color: #535E7A;
+  font-size: 13px;
+}
+.pp-placeOrder-total-right {
+  font-size: 19px;
+}
+.pp-placeOrder-bottom {
+  font-size: 13px;
+  margin-top: 9px;
+  color: #535E7A;
+}
+.pp-placeOrder-total .exc-usd-first {
+  font-size: 20px;
+}
+.pp-placeOrder-total .exc-usd-second {
+  font-size: 19px;
+}
+#btnPP-active:active {
+  transition: all .1s ease-in-out;
+  transform: scale(0.97);
+  opacity: 0.5;
+}
+.pp-wrap-amount-content .pp-info-lock{
+  height: auto;
+}
+.pp-wrap-user{
+  margin-right: 25px;
+  position: relative;
+}
+.pp-user-name{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 8px;
+  white-space: nowrap;
+}
+.pp-wrap-convert{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pp-wrap-certification{
+  margin-left: 25px;
+}
+.pp-wrap-amount-row3 {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.pp-placeOrder .pp-lock-description.pp-btnForBuy {
+  color: #e00614
+}
+.wave-center {
+  display: flex;
+  justify-content: center;
+}
+.pp-placeOrder .pp-lock-title{
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.pp-placeOrder .pp-lock-description{
+  margin-bottom: 14px;
+  color: #008981;
+  font-size: 20px;
+}
+.pp-placeOrder-content {
+  display: flex;
+  font-size: 13px;
+  margin-bottom: 13px;
+}
+.pp-placeOrder-content.pp-forJP-CN {
+  margin-bottom: 10px;
+}
+.pp-placeOrder-content .pp-placeOrder-content-left {
+  width: 110px;
+  color: #535E7A;
+  text-align: right;
+  margin-right: 12px;
+}
+.pp-placeOrder-content-right {
+  display: flex;
+  align-items: center;
+}
+.pp-wrap-amount-body.pp-confirm.pp-placeOrder {
+  padding: 19px;
+}
+.pp-header-sub-title {
+  font-size: 13px;
+  color: #24E37D;
+  margin-left: 17px;
+  position: relative;
+  top: 2px;
+}

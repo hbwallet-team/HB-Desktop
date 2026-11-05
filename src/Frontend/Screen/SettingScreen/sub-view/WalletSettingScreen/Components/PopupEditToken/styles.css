@@ -1,0 +1,27 @@
+.pp-edit-token.pp-wrap-amount-container {
+  height: auto;
+}
+.pp-edit-token .pp-wrap-amount-content {
+  height: auto;
+}
+.ads-btn-edit-card-img {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0, 0.5);
+  padding: 5px 7px;
+  border-radius: 0 5px 0 0;
+  cursor: pointer;
+}
+.ads-btn-edit-card-img img {
+  width: 20px;
+  height: 15px;
+}
+.ads-btn-edit-card-img .ant-upload {
+  color: #fff;
+}
+.ads-btn-edit-card-img .anticon-camera svg {
+  display: none;
+}

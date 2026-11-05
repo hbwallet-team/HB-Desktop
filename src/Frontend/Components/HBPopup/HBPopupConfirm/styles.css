@@ -1,0 +1,138 @@
+.hbpopup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hbpp-content {
+  width: 400px;
+  background: #1D2B47;
+  border-radius: 12px;
+}
+
+#btnPP-active:active {
+  transition: all .1s ease-in-out;
+  transform: scale(0.97);
+  opacity: 0.5;
+}
+.hbpp-header {
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: #F2F5FC;
+  height: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 0 20px;
+}
+.warning_sign {
+  margin-right: 5px;
+}
+.hbpp-close {
+  cursor: pointer;
+  margin-left: auto;
+}
+.hbpp-body {
+  height: calc(100% - 50px);
+  width: 100%;
+  display: flex;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.hbpp-image-container {
+  width: 90px;
+  padding: 20px 0px 0px 25px;
+}
+.hbpp-image {
+  width: 66px;
+  height: 59px;
+}
+.hbpp-right {
+  padding: 20px;
+  width: 100%;
+}
+.hbpp-message {
+  font-size: 13px;
+}
+.hbpp-message .loading {
+  height: 20px;
+  margin-bottom: 19px;
+}
+.hbpp-message p {
+  line-height: 23px;
+  margin-bottom: 7px;
+  white-space: pre-line;
+}
+.hbpp-imagesIntro {
+  text-align: center;
+  margin-top: 17px;
+}
+.hbpp-imagesIntro img {
+  max-width: 150px;
+  max-height: 150px;
+}
+.hbpp-checkbox-container {
+  height: 55px;
+}
+.hbpp-btn-groub {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+.hbpp-btn {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+.hbpp-btn-yes {
+  background: #1A88FF;
+}
+.hbpp-btn-delete {
+  background: #FF295C;
+}
+.hbpp-body-content {
+  width: 100%;
+  padding-bottom: 21px;
+}
+.HBHasGas {
+  display: flex;
+  align-items: center;
+}
+.HBHasGas-desc {
+  font-size: 13px;
+  color: #535E7A;
+  padding-left: 85px;
+  margin-top: 10px;
+}
+.HBHasGasForView {
+  pointer-events: none;
+}
+.HBHasGas-title {
+  font-size: 13px;
+  color: #535E7A;
+  margin-right: 10px;
+  min-width: 75px;
+  text-align: right;
+}
+.HBGachaCode {
+  display: flex;
+  margin-top: 15px;
+}
+.HBHasGas-title {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.btn-disableGacha {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.btn-enableGacha {
+  pointer-events: unset;
+  opacity: 1;
+}
+.HBHasGas-title.mt4 {
+  margin-bottom: 4px;
+}

@@ -1,0 +1,74 @@
+.dapp-market {
+  width: 100%;
+  height: 100%;
+  padding: 40px 10px 0 40px;
+}
+.dapp-market .dapp-search {
+  padding: 0 20px 0 0;
+  margin: 0;
+}
+.dapp-market .dapp-InfiniteScroll {
+  height: calc(100% - 108px);
+}
+.dapp-market .dapp-no-item {
+  height: calc(100% - 108px);
+}
+.dapp-market .dapp-asset-list .ant-list-item {
+  width: 175px;
+  margin-right: 12px;
+  padding: 6px 0;
+}
+.share-icon{
+  position: absolute;
+  margin: 10px;
+  right: 0px;
+  z-index: 999;
+}
+.anticon svg:before{
+  display: none;
+}
+
+.anticon:before {
+  display: none;
+}
+.social-list{
+  display: flex;
+  flex-direction:column;
+  margin: 5px 10px;
+}
+.social-list-1{
+  margin: 5px 0px ;
+  display: flex;
+  justify-content:space-around;
+}
+.social-list-2{
+  margin: 5px 0px ;
+  display: flex;
+  justify-content:space-around;
+
+}
+.social-icon{
+cursor: pointer;
+}
+.dappLock {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dl-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dl-image > img{
+  width: 39px;
+  margin-bottom: 20px;
+}
+.dl-content {
+  font-size: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 150%;
+  white-space: pre-line;
+}

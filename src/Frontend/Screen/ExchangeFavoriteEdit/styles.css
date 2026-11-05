@@ -1,0 +1,70 @@
+
+.exfd-card {
+  padding: 0 10px;
+  cursor: move;
+  opacity: 1;
+  width: 25%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.exfd-container {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.exfd-title-EditFavorite {
+  font-size: 24px;
+  color: #F2F5FC;
+  margin-top: 36px;
+}
+.exfd-favoriteItem {
+  margin-top: 16px;
+  padding: 20px 20px 9px 20px;
+  background: var(--tab-background-color) !important;
+  border-radius: 16px;
+}
+.exfd-titleItem {
+  margin-bottom: 13px;
+  font-size: 16px;
+}
+.exfd-card > span:first-child {
+  width: 10px;
+  margin-top: -4px;
+  margin-right: 2px;
+  display: block;
+}
+.exfd-card > span:last-child {
+  width: 10px;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: -2px;
+  display: none;
+}
+.exfd-card:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03));
+  border-radius: 12px;
+}
+.exfd-card:hover > span:last-child {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03));
+  border-radius: 12px;
+  display: block;
+  cursor: pointer;
+}
+.exfd-favoriteNoData {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(50%, 50%);
+}
+.exf-contain.locale-vn {
+  font-family: var(--font-roboto);
+}
+.exf-contain.locale-jp-cn .exfd-title-EditFavorite {
+  font-size: 22px;
+}
+.exfd-favoriteList .exs-history-loading{
+  margin-top: 24%;
+}

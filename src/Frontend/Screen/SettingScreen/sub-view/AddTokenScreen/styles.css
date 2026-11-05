@@ -1,0 +1,202 @@
+.ads-scr-container{
+    margin-left: 40px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.03));
+    border-radius: 12px;
+}
+.ads-scr-row{
+    height: 45px;
+    width: 100%;
+    flex-direction: row;
+    background-color: green;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ads-scr-row-inp{
+    width: 100%;
+}
+.ads-scr-row-txt{
+    height: 31px;
+    font-size: 13px;
+	text-align: right;
+    color: #535E7A;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 12px;
+    white-space: pre-wrap;
+}
+.ads-scr-row-txt-short{
+    font-size: 14px;
+	text-align: right;
+    color: #ffffff;
+    margin-right: 12px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+.ads-scr-row-btn{
+    width: 100px;
+	height: 39px;
+	border-radius: 10px;
+	background-color: transparent;
+    border: solid 1px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ads-scr-row-col{
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.ads-scr-img{
+    width: 100%;
+    height: 136px;
+    border-radius: 12px;
+}
+.ads-scr-img-container{
+    width: 100%;
+    height: 100%;
+}
+.ads-scr-btn-plus {
+    width: 206px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+.ads-scr-btn-plus-btn {
+    width: 206px;
+    height: 136px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #868787;
+    margin-top: 12px;
+}
+.ads-scr-btn-plus-img{
+    width: 206px;
+    height: 136px;
+}
+.ads-scr-row-inp-disable{
+    width: 100%;
+    border-color: #c3c3c3;
+    color: #c3c3c3;
+    cursor: none;
+}
+.ads-first-input {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.ads-progress {
+    position: absolute;
+    z-index: 2;
+    right: -13px;
+    top: 13px;
+}
+.ads-wrap-scr {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.ads-scr-rowLeft .ant-row {
+    margin-bottom: 20px;
+}
+.ads-scr-rowLeft .hb-input-button-mess-In{
+    white-space: pre-line;
+}
+.ads-scr-rowLeft .ant-col-lg-8 {
+    width: 200px;
+}
+.ads-scr-rowLeft .ant-col-xl-19 {
+    width: 330px;
+}
+.ads-scr-rowLeft .mh-input-41 .normal-input {
+    min-height: 32px;
+}
+.ads-info {
+    font-size: 12px;
+    color: #535E7A;
+}
+.ads-scr-rowLeft .hb-input-button-container {
+    margin-bottom: 5px;
+}
+.ads-scr-rowLeft .ads-first-input .hb-input-button-container {
+    margin-bottom: 5px;
+}
+.ads-scr-rowLeft .hb-input-button-container.from1to18 {
+    margin-bottom: 14px;
+}
+.ads-AddTokenScreen {
+    position: relative;
+}
+.ads-scr-rowLeft .hb-input-button-success {
+    width: calc(100% - 32px);
+    position: absolute;
+}
+.ads-scr-rowLeft .hb-input-button-countMax {
+    font-size: 10px;
+    text-align: right;
+    color: #535E7A;
+    margin-top: 3px;
+    margin-bottom: -3px;
+}
+.ads-scr-rowLeft #nameColor.txt-normal.txt-Absolute {
+    width: unset;
+    min-width: 166px;
+    text-align: center;
+}
+.ads-scr-row-Button {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    margin: 0 20px;
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: flex-start;
+    height: 70px;
+    margin-top: 30px;
+}
+.ads-scr-row-Button .ads-scr-row-col {
+    width: 336px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: unset;
+}
+.ads-scr-row-Button .ads-scr-row-col .exs-btn {
+    margin: 0;
+}
+.ads-scr-row-Button .ads-scr-row-col .btn-default {
+    background: #1A88FF;
+    border: 1px solid #1A88FF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 32px;
+    min-width: 96px;
+    font-size: 13px;
+    text-align: center;
+    color: #F2F5FC;
+    padding: 0 5px;
+}
+.ads-scr-container .pp-input-phone {
+    position: relative;
+    margin-left: 25px;
+}
+.ads-scr-container .pp-input-card-preview {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+}
+.ads-scr-container .pp-input-card-preview img {
+    width: 192px;
+    height: 117px;
+    border-radius: 12px;
+}

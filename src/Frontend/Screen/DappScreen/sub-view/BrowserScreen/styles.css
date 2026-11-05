@@ -1,0 +1,186 @@
+.browser-container {
+  width: 100%;
+  height: 100%;
+}
+.browser-main-nav {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 20px;
+  position: relative;
+}
+.browser-form-address {
+  width: 100%;
+}
+.browser-input-address .normal-input:read-only {
+  color: #F2F2F2;
+}
+.browser-view {
+  width: 100%;
+  height: calc(100% - 56px);
+  position: relative;
+  background-color: #fff;
+}
+.browser-webview {
+  width: 100%;
+  height: 100%;
+}
+.browser-back, 
+.browser-forward,
+.browser-home,  
+.browser-favorite, 
+.browser-reload,
+.browser-voting {
+  display: flex;
+  width: 13px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.browser-back .img-back,
+.browser-forward .img-forward {
+  margin: 0;
+  height: 13px;
+  margin-top: 1px;
+}
+.browser-reload-active,
+.browser-balance-reload-active {
+  animation: spin 2s infinite linear;
+}
+.browser-home {
+  width: 18px;
+}
+.browser-address {
+  display: flex;
+  flex-grow: 1;
+  margin: 0 20px;
+  transition: 0.3s all;
+}
+.browser-advertisement + .browser-address {
+  visibility: hidden;
+  opacity: 0;
+}
+.browser-address .hb-input-button-container {
+  margin: 0;
+}
+.browser-favorite {
+  width: 18px;
+}
+.browser-voting {
+  position: relative;
+  top: -1px;
+}
+.browser-crash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.browser-crash-img {
+  margin-bottom: 10px;
+}
+.browser-crash-txt {
+  color: #A1ACC7;
+  font-size: 13px;
+  line-height: 17px;
+}
+.browser-balance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.browser-balance-txt {
+  font-size: 13px;
+  color: #A1ACC7;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  align-items: baseline;
+}
+.browser-balance-value {
+  display: flex;
+  position: relative;
+  top: -1px;
+  white-space: nowrap;
+  align-items: flex-end;
+  margin-left: 10px;
+}
+.browser-balance-symbol {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.browser-balance-reload {
+  display: flex;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.browser-back-to-top {
+  position: absolute;
+  z-index: 1;
+  right: 30px;
+  bottom: 20px;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+}
+.browser-main-nav.locale-jp-cn .browser-balance-txt {
+  font-size: 12px;
+}
+.browser-main-nav.locale-vn .browser-balance-txt {
+  align-self: flex-end;
+}
+.browser-star {
+  background: #F2F5FC;
+  box-shadow: 0px 2px 6px rgba(29, 43, 71, 0.2);
+  border-radius: 30px;
+  padding: 3px 10px 5px;
+  margin-left: -43px;
+  margin-top: 5px;
+}
+.browser-disabled { 
+  cursor: not-allowed;
+}
+.browser-advertisement {
+  position: absolute;
+  right: 0;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.3s all;
+}
+.browser-advertisement img {
+  cursor: pointer;
+}
+.browser-advertisement-close {
+  margin: 0 3px;
+  cursor: pointer;
+}
+.is-show-address .browser-advertisement {
+  visibility: hidden;
+  opacity: 0;
+}
+.is-show-address .browser-address {
+  visibility: visible;
+  opacity: 1;
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+.browser-account{
+  font-size: 13px;
+  color: #A1ACC7;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 224px;
+  padding-right: 5px;
+  display: block;
+}

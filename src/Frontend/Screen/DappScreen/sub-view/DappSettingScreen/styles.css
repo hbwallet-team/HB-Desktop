@@ -1,0 +1,66 @@
+.dapp-setting {
+  width: 100%;
+  height: 100%;
+  padding: 40px 10px 0 40px;
+}
+.dapp-setting-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30px;
+  height: 40px;
+}
+.dapp-setting-title {
+  font-size: 24px;
+  margin-bottom: 27px;
+  padding-top: 37px;
+}
+.dapp-import-account {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 32px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.dapp-import-btn {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  padding: 15px 27px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #535E7A;
+  font-size: 13px;
+  text-align: center;
+  cursor: pointer;
+}
+.dapp-import-icon {
+  margin-bottom: 8px;
+}
+.dapp-import-desc {
+  font-size: 12px;
+  width: 400px;
+  line-height: 18px;
+}
+.dapp-current-account-title {
+  color: #535E7A;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+.dapp-current-account {
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 12px;
+}
+.dapp-switch-account {
+  color: #297FFF;
+  text-decoration-line: underline;
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+.dapp-switch-account-desc {
+  color: #535E7A;
+  font-size: 12px;
+}

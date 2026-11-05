@@ -1,0 +1,157 @@
+.dapp-NFT {
+  height: 100%;
+  overflow: hidden;
+}
+.dapp-NFT-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  height: 40px;
+  padding-left: 40px;
+  padding-right: 30px;
+  margin-top: 48px;
+  margin-bottom: 5px;
+}
+.dapp-NFT-list {
+  overflow-y: scroll;
+  height: 100%;
+}
+.dapp-NFT-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  padding: 10px 0;
+}
+.dapp-NFT-item:first-child {
+  padding-top: 0;
+}
+.dapp-NFT-time {
+  font-size: 12px;
+  line-height: 20px;
+  color: #535E7A;
+}
+.dapp-NFT-item:last-child {
+  border-bottom: none;
+}
+.dapp-NFT-content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dapp-NFT-first.NFT-Received {
+  font-size: 12px;
+  line-height: 20px;
+  color: #24E37D;
+}
+.dapp-NFT-first.NFT-Sent {
+  font-size: 12px;
+  line-height: 20px;
+  color: #FF295C;
+}
+.dapp-NFT-mid {
+  font-size: 12px;
+  line-height: 20px;
+  color: #535E7A;
+}
+.dapp-NFT-last {
+  font-size: 12px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.dapp-NFT-token {
+  font-size: 12px;
+  line-height: 20px;
+  color: #A1ACC7;
+  margin-right: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dapp-NFT-ID {
+  font-size: 12px;
+  line-height: 20px;
+  color: #FFCE00;
+}
+.dapp-NFT-timeFirst {
+  display: flex;
+  align-items: center;
+}
+.dapp-NFT-timeFirst > span {
+  font-size: 10px;
+  border: 1px solid;
+  padding: 0 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 13px;
+  margin-right: 3px;
+}
+.dapp-NFT-tokenImg {
+  margin-right: 3px;
+}
+.dapp-NFT-tokenImg > img {
+  width: 14px;
+  height: 14px;
+  margin-top: -3px;
+}
+.md-hd-body.transaction-body.NFT-popupDetail {
+  height: 372px;
+}
+.NFT-header-top {
+  display: flex;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.NFT-img.dapp-asset-thumbnail {
+  width: 115px;
+  max-height: 115px;
+}
+.NFT-header-right {
+  margin-left: 17px;
+}
+.NFT-status {
+  font-size: 13px;
+  line-height: 20px;
+}
+.NFT-status.NFT-sent {
+  color: #FF295C;
+}
+.NFT-status.NFT-received {
+  color: #24E37D;
+}
+.NFT-status.NFT-accepted {
+  color: #FFCE00;
+}
+.NFT-name {
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+.NFT-name > span > img {
+  width: 14px;
+  max-height: 14px;
+  margin-right: 3px;
+  margin-top: -3px;
+}
+.NFT-id {
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFCE00;
+  margin-top: 7px;
+}
+.dapp-InfiniteScroll.dappScroll-history {
+  height: calc(100% - 68px);
+  margin-top: 20px;
+}
+.dapp-InfiniteScroll.dappScroll-history .dapp-NFT-list{
+  margin-top: 0;
+}
+.dapp-InfiniteScroll.dappScroll-history .dapp-Spin {
+  height: 50px;
+}

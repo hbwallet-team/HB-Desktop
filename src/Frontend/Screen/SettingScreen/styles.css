@@ -1,0 +1,168 @@
+.tabContainerSettings {
+    display: block;
+    height:100%;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    margin: 32px 40px 0 40px;
+}
+.viewSettingLayout {
+    height : 100%;
+}
+.viewSettingSider {
+    background: rgba(255, 255, 255, 0.02);
+    height: 100%;
+    border-radius: 16px 16px 0 0;
+}
+.viewSettingSider .ant-layout-sider-children {
+    padding-bottom: 20px;
+}
+.titleSettingSider {
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ant-menu.menu-setting-menu .ant-menu-item,
+.ant-menu.menu-setting-menu .ant-menu-submenu {
+    padding: 0 12px !important;
+}
+.ant-menu.menu-setting-menu .ant-menu-submenu-title {
+    padding: 0 !important;
+}
+.ant-menu.menu-setting-menu .ant-menu-item > a,
+.ant-menu.menu-setting-menu .ant-menu-submenu-title {
+    font-size: 14px;
+    color: #535E7A;
+    margin: 0;
+}
+.ant-menu.menu-setting-menu .ant-menu-item > a:hover,
+.ant-menu.menu-setting-menu .ant-menu-submenu-title:hover {
+    color: #F2F2F2;
+}
+.ant-menu.menu-setting-menu .ant-menu-item-selected {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+}
+.ant-menu.menu-setting-menu .ant-menu-item-selected > a {
+    color: #F2F2F2;
+}
+.ant-menu.menu-setting-menu .ant-menu-submenu-arrow {
+    right: 0;
+}
+.ant-menu.menu-setting-menu .ant-menu-sub.ant-menu-inline > .ant-menu-item {
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.container-menu-setting-content {
+    height: 100%;
+    width: 100%;
+}
+.container-menu-setting-content.limit-container {
+    max-width: 800px;
+    margin: auto;
+}
+.menu-setting-menu-item{
+    text-transform: capitalize;
+}
+.menu-setting-menu-item-submenu{
+    background-color: #061120;
+}
+.menu-setting-menu-item-disable {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+.menu-setting-menu{
+    overflow-y:scroll !important;
+    overflow-x:hidden;
+    height: 75%;
+    padding: 0 4px 0 8px;
+}
+.st-image {
+    width: 81px;
+    height: 80px;
+}
+.st-image:active {
+    transition: all .1s ease-in-out;
+    transform: scale(0.97);
+}
+.st-title {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 15px;
+}
+.st-version {
+    color: #535E7A;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #263352;
+}
+.sts-container {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    margin-left: 40px;
+    overflow: hidden;
+    height: 100%;
+}
+.sts-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+}
+.sts-header-title {
+    font-size: 24px;
+    color: #F2F5FC;
+}
+.sts-header-sub-title {
+    color: #535E7A;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sts-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.sts-footer .btn {
+    min-width: 120px;
+    margin-left: 12px;
+}
+.tabContainerSettings .pingcode-title .pp-close {
+    display: none;
+}
+.sts-container .pp-wrap-level{
+  width: 392px;
+  margin-left: -4px;
+}
+.menu-wrapNoti {
+    position: relative;
+    display: inline-block;
+}
+.menu-wrapNoti .notiNumber {
+    position: absolute;
+    z-index: 2;
+    background-color: red;
+    min-width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: calc(100% + 6px);
+    top: -5px;
+    font-size: 9px;
+    top: 10px;
+    padding: 0 2px;
+    color: white;
+    line-height: 15px;
+}
